@@ -6,7 +6,7 @@ summary:    Enable SSH on Huawei Quidway switch
 categories: huawei
 ---
 
-Secure Shell (SSH) is a protocol which provides a secure remote access connection to network devices. This document discusses how to configure SSH on Huawei Quiway. For short story, Huawei have switch and router products and those products called as Huawei Quidway.
+Secure Shell (SSH) is a protocol which provides a secure remote access connection to network devices. This thread discusses how to configure SSH on Huawei Quidway. For short story, Huawei have switch and router products and those products called as Huawei Quidway.
 
 First, login to switch or router first, usually we login using COMM port, set the Bits per second 9600, data bits to 8, parity none, stop bits 1, and flow controll none. Then you will login as user mode, showed as:
 ```
