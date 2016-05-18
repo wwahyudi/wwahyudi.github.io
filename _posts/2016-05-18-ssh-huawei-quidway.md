@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Enable SSH Huawei Quidway
-date:       2016-05-18 12:31:19
+date:       2015-01-04
 summary:    Enable SSH on Huawei Quidway switch
 categories: huawei
 ---
