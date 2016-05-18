@@ -1,0 +1,42 @@
+.site {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-wrap {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+footer {
+  background-color: $footer-bg-color;
+  border-top: $footer-border-top;
+  color: $footer-color;
+  padding: $footer-padding;
+  font-size: $footer-font-size;
+  font-weight: $footer-font-weight;
+  text-align: center;
+}
+
+footer a{
+  color: $footer-color;
+  font-weight: $footer-font-weight;
+  text-decoration: none;
+  text-shadow: none;
+  background-image: none;
+}
+
+footer a:hover{
+  color: $footer-color;
+  text-shadow: none;
+}
