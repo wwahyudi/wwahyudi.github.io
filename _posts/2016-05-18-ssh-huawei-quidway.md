@@ -6,12 +6,16 @@ summary:    Enable SSH on Huawei Quidway switch
 categories: huawei
 ---
 
-Secure Shell (SSH) is a protocol which provides a secure remote access connection to network devices. This thread discusses how to configure SSH on Huawei Quidway. For short story, Huawei have switch and router products and those products called as Huawei Quidway.
+Secure Shell (SSH) is a protocol which provides a secure remote access connection to network devices. This post discusses how to configure SSH on Huawei Quidway. For short story, Huawei have switches and routers products and those products called as Huawei Quidway series.
 
+Login to Switch or Router
+------------------------
 First, login to switch or router first, usually we login using COMM port, set the Bits per second 9600, data bits to 8, parity none, stop bits 1, and flow controll none. Then you will login as user mode, showed as:
 ```
 <Quidway>
 ```
+Create RSA Local Public Key Pair
+------------------------
 Then go to system view, and create RSA local public key pair first (you may skipp this if your switch or router RSA local public key pair has been created before).
 ```
 <Quidway>system-view
@@ -29,6 +33,8 @@ Then go to system view, and create RSA local public key pair first (you may skip
  .........++++++++
 [Quidway]
 ```
+Create Username and Password for SSH
+------------------------
 Then create a username and password for SSH authentication:
 ```
 [Quidway]aaa
@@ -53,8 +59,10 @@ Then create a username and password for SSH authentication:
  #
 [Quidway]
 ```
+Configure SSH Server
+------------------------
 Then configure the SSH server:
-```
+```sh
 [Quidway]stelnet server enable
 Info:Start STELNET server
 [Quidway]ssh user root authentication-type password
@@ -62,6 +70,8 @@ Info:A new ssh user added
 [Quidway]ssh user root service-type stelnet
 [Quidway]
 ```
+Configure Virtual User Terminal
+------------------------
 And the last, configure virtual user terminal interface:
 ```
 [Quidway]user-interface vty 0 4
