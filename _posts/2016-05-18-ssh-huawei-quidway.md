@@ -11,9 +11,7 @@ Secure Shell (SSH) is a protocol which provides a secure remote access connectio
 Login to Switch or Router
 ------------------------
 First, login to switch or router first, usually we login using COMM port, set the Bits per second 9600, data bits to 8, parity none, stop bits 1, and flow controll none. Then you will login as user mode, showed as:
-```
-<Quidway>
-```
+
 Create RSA Local Public Key Pair
 ------------------------
 Then go to system view, and create RSA local public key pair first (you may skipp this if your switch or router RSA local public key pair has been created before).
