@@ -62,7 +62,7 @@ Then create a username and password for SSH authentication:
 Configure SSH Server
 ------------------------
 Then configure the SSH server:
-```sh
+```
 [Quidway]stelnet server enable
 Info:Start STELNET server
 [Quidway]ssh user root authentication-type password
