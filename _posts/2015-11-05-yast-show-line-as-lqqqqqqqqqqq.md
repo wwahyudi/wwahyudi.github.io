@@ -25,7 +25,6 @@ echo "export NCURSES_NO_UTF8_ACS=1" >> .bashrc
 
 - And if you are root
 {% highlight sh %}
-cd ~
 echo "export NCURSES_NO_UTF8_ACS=1" >> /etc/bash.bashrc.local
 {% endhighlight %}
 
