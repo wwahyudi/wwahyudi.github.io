@@ -19,14 +19,14 @@ That works, but when I reopen a new window for it it back to showed lqqqqqqqqqqq
 
 - If you are as a user
 {% highlight sh %}
-$ cd ~
-$ echo "export NCURSES_NO_UTF8_ACS=1" >> .bashrc
+cd ~
+echo "export NCURSES_NO_UTF8_ACS=1" >> .bashrc
 {% endhighlight %}
 
 - And if you are root
 {% highlight sh %}
-# cd ~
-# echo "export NCURSES_NO_UTF8_ACS=1" >> /etc/bash.bashrc.local
+cd ~
+echo "export NCURSES_NO_UTF8_ACS=1" >> /etc/bash.bashrc.local
 {% endhighlight %}
 
 and finally it show lqqqqqqqqqqqqqqq no more.
