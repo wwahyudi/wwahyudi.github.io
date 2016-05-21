@@ -6,6 +6,7 @@ summary:    Fix execution policy for powerShell scripts cannot be loaded because
 categories: windows
 ---
 When I am trying to run a powershell scripts before, I got this message:
+
 > script_name.ps1 cannot be loaded because the execution of scripts is disabled on this system.
 
 If you’re using Windows 2008 R2 then there is an x64 and x86 version of PowerShell both of which have to have their execution policies set. You can set the execution policy by typing this into your PowerShell window:
