@@ -8,6 +8,8 @@ categories: windows
 
 USB flash drive is also often used to install Windows. In fact, installing Windows via USB proven faster than using DVDs. Bootable USB can be created without 3rd party software, it’s a build-in feature, just only with Windows command prompt. Not only Windows 7 and Windows 8 that could be made using this method, Windows server 2008 and Windows Server 2012 can be. Here's how to make a USB Bootable Windows 7 and Windows 8 without Tools:
 
+### Format the USB Flash Drive
+
 The first step that you need to do, of course, is to plug a USB stick into your port.
 
 Next, go to your command prompt by typing `cmd` from `Start Menu`. Right-click and select `Run as administrator`. Remember to be run as administrator because if cmd not be run as administrator, some commands  may cannot be executed. **This step is used if the USB drive you've never used as a bootable USB installer. If you've ever used a USB flash drive as a USB installer you may directly go to step 6 to record reformat your USB flash drive.**
@@ -64,11 +66,14 @@ exit
 {% endhighlight %}
 ![exit](https://bzjr3a-ch3301.files.1drv.com/y3pKcPLGj9rUFa88ZsNrJq0E54gQNGF7QRFcAHrO-I6MZmno8W8fMqCgvFXUDOSyg5Y7li48YUtcr9x4UhBJg27SlBFMzYaCoSFMhOYWhiUrijk9vMnS61rp2HWwlOw12UW/11.png)
 
+### Make USB Flash Drive Bootable
+
 After successfully at format, then we will make our USB bootable using utility assistance 'bootsect' which is found in Windows Vista and Windows 7 (also in Windows 8). Insert the Windows 7 DVD (or you may mount ISO of Windows 7), then change to the directory where the DVD is located, with the command:
 {% highlight bash %}
 h:
 cd boot
 {% endhighlight %}
+
 ![cd boot](https://bzjr3a-ch3301.files.1drv.com/y3pVRO65joA0H36z4WIlumUw9E9OSEqab4mJEcll_KdThyXWqd-G3MGbZdipjlgo4Gzic4sl4_tliF3VUdJMt5APvhnJUVmy7eHWiomS9urWWIs2HdBrCERdy9gjH1rZ41S/12.png)
 
 where h: is my Windows 7 DVD drive letter
