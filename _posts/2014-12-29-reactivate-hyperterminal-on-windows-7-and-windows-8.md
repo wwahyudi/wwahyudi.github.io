@@ -20,6 +20,7 @@ Then just copy it on same location or just make a folder somewhere to paste it. 
 
 And if you doesn;t have Windows XP, you also can download it [here](http://1drv.ms/1xtJ0ps).
 
-Update:
+
+### Update:
 
 You can also use [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) to communicate with COM port.
