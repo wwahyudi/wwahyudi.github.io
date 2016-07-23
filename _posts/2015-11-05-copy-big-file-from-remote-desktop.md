@@ -3,7 +3,7 @@ layout:     post
 title:      Copy Big File from Remote Desktop
 date:       2015-11-05
 summary:    How to copy file bigger than 2GB on remote desktop
-categories: personal
+categories: windows
 ---
 
 Sometimes we need copy big files (more or equal from 2GB), and on the middle of copying it cancelled accidentally. There 2 methods we can use for it:
