@@ -2,7 +2,7 @@
 layout:     post
 title:      Copy Big File from Remote Desktop
 date:       2015-11-05
-summary:    How to copy file bigger that 2GB on remote desktop
+summary:    How to copy file bigger than 2GB on remote desktop
 categories: personal
 ---
 
