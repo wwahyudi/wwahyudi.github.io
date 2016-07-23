@@ -19,8 +19,8 @@ And some explaination from [Microsoft](https://blogs.technet.microsoft.com/enter
 
 Here are the sources:
 <ul>
-	<li> [From superuser.com](http://superuser.com/questions/552108/why-does-copying-over-rdp-sometimes-not-work); </li>
-	<li> [From brennan.offwhite.net](http://web.archive.org/web/20100213100756/http:/brennan.offwhite.net/blog/2007/01/18/fixing-copypaste-for-remote-desktop-sessions/). </li>
+	<li> <a href="http://superuser.com/questions/552108/why-does-copying-over-rdp-sometimes-not-work">From superuser.com</a>; </li>
+	<li> <a href="http://web.archive.org/web/20100213100756/http:/brennan.offwhite.net/blog/2007/01/18/fixing-copypaste-for-remote-desktop-sessions/">From brennan.offwhite.net</a>. The link gone, but there is a web archive of it.</li>
 </ul>
 
 Also, when your rdpclip.exe not running automatically, you may try [this option](https://social.technet.microsoft.com/forums/windowsserver/en-US/d92ad1c3-826f-496b-8145-bb31615c55fe/rdpclipexe-not-running-automatically).
