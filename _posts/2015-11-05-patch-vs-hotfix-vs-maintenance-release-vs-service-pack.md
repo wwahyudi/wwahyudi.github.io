@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Patch vs Hotfix vs Maintenance Release vs Service Pack
-date:       2016-05-21
+date:       2015-11-05
 summary:    A note of differences between Patch vs Hotfix vs Maintenance Release vs Service Pack
 categories: general
 ---
