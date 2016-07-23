@@ -18,8 +18,10 @@ Run rdpclip.exe to restart it
 And some explaination from [Microsoft](https://blogs.technet.microsoft.com/enterprisemobility/2006/11/16/why-does-my-shared-clipboard-not-work-part-1/).
 
 Here are the sources:
-- [From superuser.com](http://superuser.com/questions/552108/why-does-copying-over-rdp-sometimes-not-work);
-- [From brennan.offwhite.net](http://web.archive.org/web/20100213100756/http:/brennan.offwhite.net/blog/2007/01/18/fixing-copypaste-for-remote-desktop-sessions/).
+<ul>
+	<li>[From superuser.com](http://superuser.com/questions/552108/why-does-copying-over-rdp-sometimes-not-work);</li>
+	<li>[From brennan.offwhite.net](http://web.archive.org/web/20100213100756/http:/brennan.offwhite.net/blog/2007/01/18/fixing-copypaste-for-remote-desktop-sessions/).</li>
+</ul>
 
 Also, when your rdpclip.exe not running automatically, you may try [this option](https://social.technet.microsoft.com/forums/windowsserver/en-US/d92ad1c3-826f-496b-8145-bb31615c55fe/rdpclipexe-not-running-automatically).
 
