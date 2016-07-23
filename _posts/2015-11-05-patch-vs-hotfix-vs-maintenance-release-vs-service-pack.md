@@ -9,16 +9,16 @@ categories: general
 Just a note, I think this explanation of differences between Patch vs. Hotfix vs. Maintenance Release vs. Service Pack which easy to understand (for me).
 
 ### Patch
-> Publicly released update to fix a known bug/issue.
+<span class="bg-dark-gray white">Publicly released update to fix a known bug/issue.</span>
 
 ### Hotfix 
-> Update to fix a very specific issue, not always publicly released
+<span class="bg-dark-gray white">Update to fix a very specific issue, not always publicly released.</span>
 
 ### Maintenance Release
-> Incremental update between service packs or software versions to fix multiple outstanding issues
+<span class="bg-dark-gray white">Incremental update between service packs or software versions to fix multiple outstanding issues.</span>
 
 ### Service Pack
-> Large Update that fixes many outstanding issues, normally includes all Patches, Hotfixes, Maintenance releases that predate the service pack
+<span class="bg-dark-gray white">Large Update that fixes many outstanding issues, normally includes all Patches, Hotfixes, Maintenance releases that predate the service pack.</span>
  
 <blockquote>
 	<p>
