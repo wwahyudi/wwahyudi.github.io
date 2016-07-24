@@ -2,13 +2,15 @@
 layout:     post
 title:      Please wait for the System Event Notification Service
 date:       2015-01-15
-summary:    Windows remote server shows Please wait for the System Event Notification Service when shutdown
+summary:    Windows server shows "Please wait for the System Event Notification Service"
 categories: windows
 ---
 
 This afternoon, when I restarted Windows Server 2008 R2 via remote desktop, I got a message “Please wait for the System Event Notification Service…” and the loading was too long.
 
 System Event Notification Service (SENS) ia a service which provides automatic distribution of events to subscribing Component Object Model (COM) components. In the `services.msc` it listed as `COM+ Event System`.
+
+![desk](https://bpiw8w.dm2301.livefilestore.com/y2p_4WsTrBADtVzqHaH4kTYou_uv1HqqpPaFG6xn2otcUVRBloljKUaQ0ALWxVMNqXW7XG4z8zTH4AD1CmOTGJLK62WfxDyLS1tZagsgKNb-Dp3F2gDCGejEkxmOma30wi_ba_DOCvFsLoEX3-GSFdEog/Please-wait-for-the-System-Event-Notification-Service-Ebuggi.png)
 
 I got confused how as soon as Windows Server is rebooted and running normally as usual. After Googling and searching for solutions, it turns out the way is as follows:
 
