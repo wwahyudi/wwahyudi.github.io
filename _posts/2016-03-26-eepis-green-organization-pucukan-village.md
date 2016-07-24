@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      [Personal] EEPIS Green Organization - Pucukan Village
+title:      EEPIS Green Organization - Pucukan Village
 date:       2016-03-26
 summary:    Remembering my activity on EEPIS Green Organization on 2014
 categories: personal
