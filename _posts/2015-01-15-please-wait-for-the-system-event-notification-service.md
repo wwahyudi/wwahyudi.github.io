@@ -2,7 +2,7 @@
 layout:     post
 title:      Please wait for the System Event Notification Service
 date:       2015-01-15
-summary:    Windows remote server shows "Please wait for the System Event Notification Service" when shutdown
+summary:    Windows remote server shows Please wait for the System Event Notification Service when shutdown
 categories: windows
 ---
 
