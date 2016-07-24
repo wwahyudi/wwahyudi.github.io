@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Kizuna Trip to Japan
-date:       2011-11-05
+date:       2013-03-01
 summary:    Trip to Japan for student exchange program Kizuna Bond Project
 categories: personal
 ---
@@ -14,7 +14,7 @@ Tanggal 17 Februari 2013 adalah hari menuju keberangkatan ke negeri sakura telah
 
 Final round Youth Competition for Diasaster Education, 5 Desember 2012
 
-Saya berasal dari tim EGO(Eepis Green Organization)dari PENS. Selain Ego, terdapat 5 tim lain yang ikut dalam Kizuna ini, diantaranya : HIMAPSI(himpunan Mahasiswa Psikologi) dari Universitas Syiah Kuala Banda Aceh, Korsa(Salman ITB volunteer Corps For Humanity) dari Institut teknologi Bandung, PMR Mania dari Universitas Gadjah Mada Jogjakarta, BFM(Book For Mountain) juga dari Universitas Gadjah Mada Jogjakarta, dan terakhir Situlung Tulung Team dari Universitas Hasanuddin Makassar. Kami semua berada di Kelompok D pada rombongan kali ini, Kelompok A dan B merupakan siswa SMA sedangkan C dan D merupakan mahasiswa.
+Saya berasal dari tim EGO (Eepis Green Organization) dari PENS. Selain Ego, terdapat 5 tim lain yang ikut dalam Kizuna ini, diantaranya : HIMAPSI (himpunan Mahasiswa Psikologi) dari Universitas Syiah Kuala Banda Aceh, Korsa (Salman ITB volunteer Corps For Humanity) dari Institut teknologi Bandung, PMR Mania dari Universitas Gadjah Mada Jogjakarta, BFM (Book For Mountain) juga dari Universitas Gadjah Mada Jogjakarta, dan terakhir Situlung Tulung Team dari Universitas Hasanuddin Makassar. Kami semua berada di Kelompok D pada rombongan kali ini, Kelompok A dan B merupakan siswa SMA sedangkan C dan D merupakan mahasiswa.
 
 ![Sesi foto kelompok D sebelum berangkat di Kedutaan Besar Jepang untuk Indonesia](https://public-ch3302.files.1drv.com/y3pxf9ZzewM3WPl8QBFhESmvXB2xGrQl_6dWL2PiMVbltpy0a9Bb8pxfcVcf0rQb3a34fHCaA8KfLoy80RWgAMsZRhgA-VW1Gr1D6H9OrBeOUmXbE-eJZz4a0yWsdwaudyX/2.jpg)
 
