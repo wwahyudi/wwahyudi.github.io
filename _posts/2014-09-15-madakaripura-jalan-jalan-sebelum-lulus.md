@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Madakaripura - Jalan-Jalan Sebelum Lulus
-date:       2011-11-05
+date:       2014-09-15
 summary:    Jalan-jalan sebelum lulus sama temen IT D4 B 2010 ke Madakaripura
 categories: personal
 ---
