@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Use "dd" to Benchmark Your Disk or CPU
-date:       2016-05-21
+date:       2015-11-05
 summary:    Repost from romanrm.net about use "dd" to benchmark disk on linux
 categories: linux
 ---
