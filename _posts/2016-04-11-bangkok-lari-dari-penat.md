@@ -21,14 +21,14 @@ Pagi bangun, saya, Ema, dan Bu Wahyu mencari sarapan dulu. Cari jajan di daerah 
 Sungai Chao Phraya
 
 
-Tempat berikutnya adalah Grand Palace. Sangat ramai berjejal turis dengan bangunan-bangunan yang berciri khas negeri gajah ini, kurang lebih itulah Grand Palace. Menyebrang sedekit, kami bisa mengunjungi Wat Pho. Sebuah `Wat` dengan patung terkenalnya `The Sleeping Giant Buddha`. Saya sangat mengagumi beberapa bangunan disini. 
+Tempat berikutnya adalah Grand Palace. Sangat ramai berjejal turis dengan bangunan-bangunan yang berciri khas negeri gajah ini, kurang lebih itulah Grand Palace. Menyebrang sedikit, kami bisa mengunjungi Wat Pho. Sebuah *Wat* dengan patung terkenalnya *The Sleeping Giant Buddha*. Saya sangat mengagumi beberapa bangunan disini. 
 
 ![](https://8dcrgw.dm2301.livefilestore.com/y3pdhMq36gJ3DBqrzbKgT72MC8yu20HnkHGzh2tVfmW3Hyy6jCeHI0IdbvKbQI441qXbNir-HU6hBWO8NiwtXK--oeY1qZOeY7Fw7_E_PFP-echWq0GgEjeQQTWM4djeCzyxLh1TYh0sTKDx_lekw4-tcwDiurmoTu-IfkWnSx_FFc/DSC_0855%20%282%29.JPG)
 
 Salah satu bangunan di Wat Pho
 
 
-Panas tidak membuat kami menyerah, sebentar berjalan, dan kami sampai di Khao San Road. Tempat ini berada sekitar 1 kilometer dari Wat Pho. Ada yang bilang kalo Khao San Road adalah `The centre of the backpacking universe`, macem-macem yang bisa dilihat, dimakan, dibeli dan tentunya dengan harga yang relatif terjangkau. 
+Panas tidak membuat kami menyerah, sebentar berjalan, dan kami sampai di Khao San Road. Tempat ini berada sekitar 1 kilometer dari Wat Pho. Ada yang bilang kalo Khao San Road adalah *the centre of the backpacking universe*, macem-macem yang bisa dilihat, dimakan, dibeli dan tentunya dengan harga yang relatif terjangkau. 
 
 Capek sudah jalan kaki seharian, saatnya mencari penginapan. Tidak jauh dari tempat awal menginap, saya dan Ema menemukan hostel dengan harga miring. Orchid Hostel terletak di daerah Sarm Yarn. Pemilik juga sangat ramah, dan juga sangat membantu untuk turis dadakan seperti kami. Oh ya, di sekitaran hostel, juga banyak makanan yang bisa dicoba baik pada pagi dan malam hari. Dan satu hal yang menarik, dibelakang hostel ini, ada gang dengan untuk turis wanita 21++ (Yup, isinya laki-laki semua). OK sudah malam saatnya tidur.
 
@@ -48,7 +48,7 @@ OK lanjut, setelah istirahat, kami mengunjungi salah satu mall di Bangkok, Mall 
 
 ### Hari keempat
 
-Satu setengah jam dari Victoria Monument, akhirnya kami sampai di Ayutthaya, *The old capital of Thailand*. Agar gampang keliling disini, kami menyewa sepeda motor. Jujukan pertama adalah Wat Maha That yang terkenal dengan `The stone Buddha head entwined in tree roots`.
+Satu setengah jam dari Victoria Monument, akhirnya kami sampai di Ayutthaya, *The old capital of Thailand*. Agar gampang keliling disini, kami menyewa sepeda motor. Jujukan pertama adalah Wat Maha That yang terkenal dengan *The stone Buddha head entwined in tree roots*.
 
 ![The stone Buddha head entwined in tree roots](https://8dcrgw.dm2301.livefilestore.com/y3p-YLIWD5gcnEragOINjzFBxdE0xBDKekbADw-GwTvktjFsCDI3BzzGYvRKflKLIarZC0GpURwQ2L7-cW22f1JcmyWNaaaSGyc9InZCfATsoVsWHnc268E9XrPqbfmrXHYRLRhmXqL_OsbUM6QTa2ACUQItByOw-bOO5t64Cz-noM/DSC_1046_bw.jpg)
 
