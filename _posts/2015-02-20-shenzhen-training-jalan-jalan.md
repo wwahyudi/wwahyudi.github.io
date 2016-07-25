@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Shenzhen - Training Jalan-Jalan
+title:      Shenzhen - Training dan Jalan-Jalan
 date:       2015-02-20
 summary:    Huawei training di Shenzhen disisipi jalan-jalan di Shenzhen dan Hongkong
 categories: personal
@@ -15,7 +15,7 @@ Awal tiba di Shenzhen, kami langsung menuju ke Shanshui Trends Shang Meilin Hote
 Teman-teman dan pemilik restoran muslim
 
 
-Tujuan utama aya ke Shenzhen adalah untuk training yang disediakan perusahaan tentang Carrier IT Product Skill Enchantment Training. Training meliputi Huawei Blade Server E9000, Huawei Storage Oceanstor 9000 Series dan Oceanstor 18000 Series, dan FusionSphere, virtualisasi besutan Huawei.
+Tujuan utama aya ke Shenzhen adalah untuk training yang disediakan perusahaan tentang Carrier IT Product Skill Enchantment Training. Training meliputi Huawei Blade Server E9000; Huawei Storage Oceanstor 9000 Series dan Oceanstor 18000 Series; dan FusionSphere, virtualisasi besutan Huawei.
 
 ![Peserta Training](https://7zcqgw.dm2301.livefilestore.com/y3pFifj_2cgrDN2aYTxFnP38gIHPPoOMUhVS6S49QKft1H03Zy4mCJyLq_4fR2OJBWnl_AJLzkKtynRozesE1XIrXWMexBWefG64LKiQOl7l8n1vwd2Tg-Jt5egjvNXzZW08nQ5FhglpEkra4O-OFaAw670NWsbIEt4Jaag0-N8hQ8/DSC03480.jpg)
 
