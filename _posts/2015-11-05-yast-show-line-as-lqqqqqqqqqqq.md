@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Why does YaST now show lines as lqqqqqqqqqqqqqqq?
+title:      Why does YaST now show lines as lqqqqqqq?
 date:       2015-11-05
-summary:    YaST show line as lqqqqqqqqqqqqqqq
+summary:    YaST show line as lqqqqqqqqqq
 categories: suse
 ---
 
