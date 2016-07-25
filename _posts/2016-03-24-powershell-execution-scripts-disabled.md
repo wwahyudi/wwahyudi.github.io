@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      PowerShell says “Execution of scripts is disabled on this system.”
+title:      PowerShell says “Execution of scripts is disabled on this system”
 date:       2016-03-24
 summary:    Fix execution policy for powerShell scripts cannot be loaded because the execution of scripts is disabled on this system. 
 categories: windows
