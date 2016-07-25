@@ -10,7 +10,7 @@ Just a note for myself to remember about OSI 7 Layers and TCP/IP.
 
 ### OSI 7 Layers
 
-<table align="center">
+<table align="center" style="font-size: 0.75rem !important;">
     <tbody>
         <tr>
             <th style="text-align: center;">Layer #</th>
@@ -82,7 +82,7 @@ Just a note for myself to remember about OSI 7 Layers and TCP/IP.
 ### OSI comparision with TCP/IP Protocol Stack
 
 
-<table align="center">
+<table align="center" style="font-size: 0.75rem !important;">
     <tbody>
         <tr>
             <th style="text-align: center;">OSI #</th>
