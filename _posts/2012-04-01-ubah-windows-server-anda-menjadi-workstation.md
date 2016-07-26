@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Ubah Windows Server Anda Menjadi Workstation
-date:       2011-11-05
+date:       2012-04-01
 summary:    Mengubah Windows Server 2008 R2 menjadi workstation
 categories: windows
 ---
