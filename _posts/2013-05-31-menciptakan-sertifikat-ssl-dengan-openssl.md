@@ -137,7 +137,7 @@ $ cp default www.asem.com
 
 ![Mengcopy default untuk www.asem.com](https://1cohug-ch3301.files.1drv.com/y3pH3gW8gComtPPtxbXpM9It4FfseL35DjLVwBlOMq8wMPPgYbfWQg225oQSnFvs2TjVa_LNqAQE_A9UXcAS_gb4oSEKDSOv_frqIrYA4EwhN6qjE1KfrLtasEYqQMS5cIj/12.png?psid=1&rdrts=144166618)
 
-5. Edit file www.asem.com dengan gedit atau pico
+**5.** Edit file www.asem.com dengan gedit atau pico
 
 {% highlight bash %}
 $ sudo gedit etc/apache2/sites-available/www.asem.com
@@ -193,7 +193,7 @@ $ sudo cp /var/www/index.html /var/www/asem/index.html
 
 ![Mengcopy html index untuk index file www.asem.com](https://1cohug-ch3301.files.1drv.com/y3ppKv_w-vtv1uRjex0gdBe6tKfcIOKrvHTvN6dvjTmGcJs3_qBF_DMEu3By5shIRU-tXT6fR8WifAHsXkR4AxRPZDUYNn5DtO8itcUFl47DYQLfIMpFHs2D48Vrr28xZt1/15.png?psid=1&rdrts=144166619)
 
-8. Enable-kan website www.asem.com dengan:
+**8.** Enable-kan website www.asem.com dengan:
 
 {% highlight bash %}
 $ sudo a2ensite www.asem.com
@@ -201,7 +201,7 @@ $ sudo a2ensite www.asem.com
 
 ![Mengaktifkan website www.asem.com](https://1cohug-ch3302.files.1drv.com/y3py6arD9x0MlN4N7IB27Zd4GYIMeBHYLP5eTUDocUBgYgvmO1QomjT58feSDWxUkpF1SHgn5mhybXPvWfyFk8U2l7IiKJEEow-RYCbT2ByVeoiT_iRTPqQ0b-Xrctc-JlF/16.png?psid=1&rdrts=144166619)
 
-9. Edit file /etc/hosts untuk melakukan resolusi domain www.asem.com website ke 127.0.0.1. Cari baris 127.0.0.1 lalu tambahkan baris ini:
+**9.** Edit file /etc/hosts untuk melakukan resolusi domain www.asem.com website ke 127.0.0.1. Cari baris 127.0.0.1 lalu tambahkan baris ini:
 
 {% highlight bash %}
 127.0.0.1 localhost asem www.asem.com
