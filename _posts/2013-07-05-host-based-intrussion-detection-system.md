@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Host Based Intrussion Detection System
+title:      Host Based Intrussion Detection System menggunakan Tripwire
 date:       2013-07-05
 summary:    Konfigurasi IDS Tripwire di lab
 categories: network
