@@ -6,9 +6,9 @@ summary:    Huawei training di Chengdu disisipi jalan-jalan di Chengdu dan Hongk
 categories: personal
 ---
 
-Kali ini saya berkesempatan untuk mengunjungi Tiongkok sekali lagi. Saya mendapat undangan training kembali ke Chengdu, China. Saya hanya mendapatkan 1 minggu **bussiness trip** dengan 2 **weekends**. Untuk mencapai Chengdu saya harus terbang selama 5 jam ke Hong Kong, kemudian disambung penerbangan ke Chengdu selama 2,5 jam. Selama transit di Hong Kong saya menetap di bandara, karena kebetulan hanya beda sekitar 6 jam transit dan saya juga cukup capek karena flight yang saya pilih **first flight** pada 00.00 GMT+7 dari Jakarta.
+Kali ini saya berkesempatan untuk mengunjungi Tiongkok sekali lagi. Saya mendapat undangan training kembali ke Chengdu, China. Saya hanya mendapatkan 1 minggu *bussiness trip* dengan 2 *weekends*. Untuk mencapai Chengdu saya harus terbang selama 5 jam ke Hong Kong, kemudian disambung penerbangan ke Chengdu selama 2,5 jam. Selama transit di Hong Kong saya menetap di bandara, karena kebetulan hanya beda sekitar 6 jam transit dan saya juga cukup capek karena flight yang saya pilih *first flight* pada 00.00 GMT+7 dari Jakarta.
 
-Sesampai di Chengdu saya langsung ke Hotel. Hotel yang saya dan teman saya gunakan adalah HanTing Hotel, Long hu, Hi-tech Park, Chengdu. Ruangan yang kami book cukup luas, dengan 2 kamar, 1 kamar mandi, dan ruangan tengah dengan ukuran 6*3 meter. Sangat luas untuk sebuah kamar hotel. setelah beristirahat, sore hari kami keluar untuk jalan-jalan ke **downtown** Chengdu. Kami sempat jalan-jalan di Wuhou Temple, tempat untuk menghormati Zhuge Liang, seorang bangsawan dari Shu. Dan di sampingnya ada Zhaolie Temple, tempat untuk menghormati Liu Bie, **warlord of Kingdom of Shu**. Dibagian belakang ada tempat untuk makan-makan dan jalan-jalan (yang saya lupa namanya). Setelah itu, kami pergi ke tengah kota Chengdu untuk menikmati udara dingin perkotaan Chengdu malam hari.
+Sesampai di Chengdu saya langsung ke Hotel. Hotel yang saya dan teman saya gunakan adalah HanTing Hotel, Long hu, Hi-tech Park, Chengdu. Ruangan yang kami book cukup luas, dengan 2 kamar, 1 kamar mandi, dan ruangan tengah dengan ukuran 6*3 meter. Sangat luas untuk sebuah kamar hotel. setelah beristirahat, sore hari kami keluar untuk jalan-jalan ke *downtown* Chengdu. Kami sempat jalan-jalan di Wuhou Temple, tempat untuk menghormati Zhuge Liang, seorang bangsawan dari Shu. Dan di sampingnya ada Zhaolie Temple, tempat untuk menghormati Liu Bie, *warlord of Kingdom of Shu*. Dibagian belakang ada tempat untuk makan-makan dan jalan-jalan (yang saya lupa namanya). Setelah itu, kami pergi ke tengah kota Chengdu untuk menikmati udara dingin perkotaan Chengdu malam hari.
 
 ![Downtown Chengdu](https://7dcigw.dm2301.livefilestore.com/y3p9ZST1buk8jOeBejZ-9nTcbV8OhR5rYnO21Tcf13DlOF0UHfQ-lLQIbxlKf3gfwGFMWgSPWU768CpMih8AKJSsqo8VQNzDDsSSriQodP7SfeWIx6t-oVVDxZf-QnQg2fwmnLmVH3AqJ8xXVdXQjc64MQR7Oqoc_3c9DKPJrb86kQ/DSC_0870.JPG?psid=1)
 
@@ -20,7 +20,7 @@ Esok harinya, hari minggu, kami memutuskan untuk jalan-jalan ke Dujiangyan. Duji
 
 Dujiangyan dari Erwang Temple
 
-Dujiangyan pada awalnya diarsiteki oleh Li Bing, seorang pegawai negeri sekaligus **engineer**. Dujiangyan sendiri termasuk salah satu UNESCO World Heritage Site sampai sekarang. Bersama Zhengguo Canal di Shaanxi dan Lingqu Canal di Guangxi, Dujiangyan terkenal sebagai `The three great hydraulic engineering projects of the Qin dynasty`. Pada tahun 2008, area ini juga terkena efek dari Gempa Sichuan, namun tidak menimbulkan kerusakan yang parah. Untuk **engineering constructionnya** ada 2 macam, yaitu pusat irigasi dan Jembatan suspensi ganda Anlan. Untuk pusat irigasinya akan saya kutip dari Wikipedia:
+Dujiangyan pada awalnya diarsiteki oleh Li Bing, seorang pegawai negeri sekaligus *engineer*. Dujiangyan sendiri termasuk salah satu UNESCO World Heritage Site sampai sekarang. Bersama Zhengguo Canal di Shaanxi dan Lingqu Canal di Guangxi, Dujiangyan terkenal sebagai `The three great hydraulic engineering projects of the Qin dynasty`. Pada tahun 2008, area ini juga terkena efek dari Gempa Sichuan, namun tidak menimbulkan kerusakan yang parah. Untuk *engineering constructionnya* ada 2 macam, yaitu pusat irigasi dan Jembatan suspensi ganda Anlan. Untuk pusat irigasinya akan saya kutip dari Wikipedia:
 
 <blockquote>
 Li Bing's Irrigation System consists of three main constructions that work in harmony with one another to ensure against flooding and keep the fields well supplied with water:
@@ -44,7 +44,7 @@ Lima hari berikutnya saya mengikut training Huawei Storage Migration. Training b
 
 Peserta training kali ini
 
-Hari Jumat, kami memutuskan untuk menyelesaikan training lebih cepat. Sore harinya kami jalan jalan di **downtown** Chengdu. 
+Hari Jumat, kami memutuskan untuk menyelesaikan training lebih cepat. Sore harinya kami jalan jalan di *downtown* Chengdu. 
 
 ![Kongkow dulu](https://7dcigw.dm2301.livefilestore.com/y3pPD1K7AmDc1FtFSxaOkFTdYWm_lxzZzubsIGHUMIAf7QDTu6q9a4fse8iBXz0ap1gAwQjJ89REEPnr1MexDyZ8XVRFdGx0Tc64FwP-7UPwYNsUZ0MDd0qGQtAjifK4lkZw2OKl86CflgtoTxofIKgmyLmtJ0VSLQRoUNLZzFqSVg/mmexport1461337627348.jpg?psid=1)
 
