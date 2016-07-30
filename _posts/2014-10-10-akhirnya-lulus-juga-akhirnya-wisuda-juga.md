@@ -10,10 +10,10 @@ Akhirnya saya lulus juga! Saya lulus sebagai Sarjana Sains Terapan. Yup ini term
 
 TERIMA KASIH BANYAK!
 
-![Mawar](https://mk9hrg-ch3302.files.1drv.com/y2pLXd7smVm6MBvt9zZwkkJ1RTMh8sSilvgs-cnegugPoAFjWpq6sDAcpHSGXFq1pP_qfTx8NuBQ_PtiZThnPwJ0DDWkuBgwE57i9V5u9xn3h8/lulus%20%281%29.jpg?psid=1)
+![Mawar](http://sapikuda.com/images/posts/2014-10-10-akhirnya-lulus-juga-akhirnya-wisuda-juga/lulus%20%281%29.jpg)
 
 Terima kasih untuk "Mawar" yang sudah mau datang. Thank alot for coming.
 
-![H+1](https://mk9hrg-ch3302.files.1drv.com/y3p-v2ATOZixCDDeF7Tk8vTFKc2tc2KzQbm3SlSJ_-7jKRgwLRLowaCH4ub3JF1ON8q14wLrIW1c05AETNoBy6x8eiHsaQmjnNb3zpb48kLP7W_phEYcjjpkBiKQtgcQFIL/lulus%20%282%29.JPG)
+![H+1](http://sapikuda.com/images/posts/2014-10-10-akhirnya-lulus-juga-akhirnya-wisuda-juga/lulus%20%282%29.JPG)
 
 Sebelum toga dikembalikan buat kenang-kenang dulu. Terima kasih buat temen-temen D4 IT B 2010.

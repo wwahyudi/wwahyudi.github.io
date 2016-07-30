@@ -16,7 +16,7 @@ To reactivate HyperTerminal on Windows 7, the easiest way is just copy HyperTerm
 
 Then just copy it on same location or just make a folder somewhere to paste it. And to run it, just simply double click it. Here are result of HyperTerminal run on my Windows 7:
 
-![HyperTerminal on Windows 7](https://bpid8w.dm2301.livefilestore.com/y2pCMLXXQlEeOd5Q3n-3eO7O7kpUi-6qHTM-MbhOhXk0EU3CxMSpbHpLLgqmqO5ZOF4yqV_No3HARTLghHUzYW79CMmleGaLbJqAYNgF2UkeKDeUHSBDFV34oIDbcn32NNj_KU5swKWEw65-oH0I-rGOg/2014-12-29_201738.png)
+![HyperTerminal on Windows 7](http://sapikuda.com/images/posts/2014-12-29-reactivate-hyperterminal-on-windows-7-and-windows-8/2014-12-29_201738.png)
 
 And if you doesn;t have Windows XP, you also can download it [here](http://1drv.ms/1xtJ0ps).
 
