@@ -72,15 +72,15 @@ public static String kuda(String key, String msg) throws Throwable {
 
 Berikut hasil eksekusinya:
 
-![Hasil running Chat Server](https://7zcuaw.bay.livefilestore.com/y2pzlRGry2zuPKLUimWOJzZueMO4vLz5luRU23rVtAzSqECxFEK9mvL3q94Db-OKWmvE5GmugOp9Jwx7wZIPByNV6L5F-3Exm78vaHu96JC5oyNOEJKYVMCn5KJ885uWmqh/1.png?psid=1)
+![Hasil running Chat Server](http://sapikuda.com/images/posts/2013-07-01-kriptografi/1.png)
 
 Hasil running Chat Server
 
-![Hasil running Chat Client 1](https://7zcuaw.bay.livefilestore.com/y2p7gIHbCJCa_Fb-tKYpPDJC1xfdaD6UW8eTrxt_zx7NBIJQYE0pTipXwKMdzI7lcCA3yC1aVae6yEQ9pNidf1T_d6o7RAnbo7dARYsqd301vx-k6OP90D2fZt97kCTGcUC/2.png?psid=1)
+![Hasil running Chat Client 1](http://sapikuda.com/images/posts/2013-07-01-kriptografi/2.png)
 
 Hasil running Chat Client 1
 
-![Hasil running Chat Client 2](https://7zcuaw-ch3301.files.1drv.com/y3pwDEkcsJfd2BV70Dl6rgXp0Y89Jdr8GAFKK_ryvN_FRyiKgLQT8w5QbEuUyfz7BdtaOeqovQjqtQ8RfXI9nDbNm3nUHQEy2hG5lRyDxLyHsWfGM7MX1EFQN6FzU8-Gl1s/3.png?psid=1&rdrts=144166375)
+![Hasil running Chat Client 2](http://sapikuda.com/images/posts/2013-07-01-kriptografi/3.png)
 
 Hasil running Chat Client 2
 
@@ -94,7 +94,7 @@ Dalam hal ini, percobaan dibuat menggunakan DES (Data Encryption Standard) ciphe
 
 Pada percobaan diatas digunakan skema enkripsi asimetrik, dimana tiap pengguna (klien) memiliki key sendiri. Tiap klient diminta untuk memiliki key tersendiri.
 
-![Gambaran skema enkripsi asimetrik](https://7zcuaw.bay.livefilestore.com/y2p6iYzKPEt_sgKOJl61D4Y54yCT7K2jNYb_66qgex1W6LsVbLzsUJWPcTnEwuNjbsRA8GerKWbhLn4u0ClgOirw1yJKNxRkm85bRsVt2-80ZewK1RSiFhnoH09ZqL_K8iH/4.gif?psid=1)
+![Gambaran skema enkripsi asimetrik](http://sapikuda.com/images/posts/2013-07-01-kriptografi/4.gif)
 
 Gambaran skema enkripsi asimetrik
 
@@ -102,14 +102,12 @@ Penggunaan enkripsi dapat dilihat pada hasil running diatas, pada server terliha
 
 Berikut hasil perbandingan Follow Stream dari paket yang dikirim dengan klien dengan enkripsi dan klien tanpa enkripsi:
 
-![Hasil Follow Stream paket yang dikirim dengan klien yang mengenkripsi teksnya](https://7zcuaw-ch3302.files.1drv.com/y3p9bEAK7AM9ODBUB-mSQdZt0Po_x-QBYcg_sitn6NLr6ikiMNj_2bUDXME6HuWwo_vrktn-e06R0kC0c4gYHAbXDUY9RvY1R7Sk4kQKU3QCmGpRFXw4g-5Yi_buQ0dqAAy/5.png?psid=1&rdrts=144166453)
+![Hasil Follow Stream paket yang dikirim dengan klien yang mengenkripsi teksnya](http://sapikuda.com/images/posts/2013-07-01-kriptografi/5.png)
 
 Hasil Follow Stream paket yang dikirim dengan klien yang mengenkripsi teksnya
 
-![Hasil Follow Stream paket yang dikirim dengan klien yang tidak mengenkripsi teksnya](https://7zcuaw.bay.livefilestore.com/y2pKAjrnhH-9NMxMA_LNaIOehQXLe-gPfPiu01eN2f7t7Uvgm_iKhX4Z4fLEBvAfXmm4dZTDghxH-BxJlqMSUxLU6Bv_AOktEJvIxf0cwuwpTXWgYltMI4jte8iKnCVqvos/6.png?psid=1)
+![Hasil Follow Stream paket yang dikirim dengan klien yang tidak mengenkripsi teksnya](http://sapikuda.com/images/posts/2013-07-01-kriptografi/6.png)
 
 Hasil Follow Stream paket yang dikirim dengan klien yang tidak mengenkripsi teksnya
 
 Terlihat diatas bahwa Hasil Follow Stream paket yang dikirim dengan klien yang **tidak** mengenkripsi teksnya dapat dibaca dengan mudah sehingga dapat dianggap bahwa pesan yang dikirim tidak aman, sedangkan Hasil Follow Stream paket yang dikirim dengan klien yang mengenkripsi teksnya, hasil pesan tidak mudah dibaca.
-
-

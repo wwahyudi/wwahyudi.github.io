@@ -20,7 +20,7 @@ $ sudo apt-get install openssl
 {% endhighlight %}
 
 ![Instalasi apache2 dan ssl
-](https://1cohug.bay.livefilestore.com/y2pMd98KPJGO740VojSXLExovIMVqQqq8F6hvj0s1ie_RdfWRk0nPkknF7y2aOcf9oCgGymAW5BP2Dd0_x4x3EW_vUq8B4bSdnMznOHwjSFZW8xQK0zCQHGJsMBohdJRfK6/1.png)
+](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/1.png)
 
 **2.** Langkah berikutnya adalah membuat sertifikat SSL untuk web server sebelum kita menjalankan secure server dengan HTTPS. Selain itu , kita juga akan membuat pasangan public/private key untuk melakukan request sertifikat. Anda akan membutuhkan domain name untuk sertifikat yang anda ciptakan. Pada contoh ini digunakan nama: `www.asem.com`.
 
@@ -31,7 +31,7 @@ $ cd /etc/apache2/ssl.
 $ ls -al
 {% endhighlight %}
 
-![Membuat direktori ssl dan masuk ke direktori tersebut](https://1cohug.bay.livefilestore.com/y2piinUCLFy5Auypq97MsrJ7hdeUwjjNEGYtyhamAx8YyJypK_mjfwrE_UjAiw5eP3c6GoblXb1RBVIX5hnt87414xPRG-TPeaEosZe3Vu7oSzxbjCdi8hfksgklDr4MX0t/2.png)
+![Membuat direktori ssl dan masuk ke direktori tersebut](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/2.png)
 
 **4.** Untuk membuat Certificate Signing Request (CSR), anda harus membuat sepasang public/privat key terlebih dahulu. 
 
@@ -46,7 +46,7 @@ $ sudo openssl genrsa -des3 -out server.key 1024
 - `out`: menunjukkan filename yang akan menyimpan hasil output
 - `1024`: menunjukkan jumlah bit dari key yang dibuat
 
-![pembuatan key untuk ssl](https://1cohug-ch3302.files.1drv.com/y3psFX8GoQt67SNW8_ZNjh9VL5HUOs-wipwM-IG_WzZb-T8gxR9nMMLXYrqvYbv1VBTgkTokutk3RB--1TACK3TaCem_LwSmZWZTf_S4nP2iuIgXm7EpWYKd1tFLiOfNhPn/3.png?rdrts=144166954)
+![pembuatan key untuk ssl](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/3.png)
 
 **6.** Siapkan passphrase dan isikan pada saat diminta. Hasilnya akan muncul seperti ini:
 
@@ -64,7 +64,7 @@ Setelah menjalankan langkah ini, akan tercipta server.key pada direktori ssl.
 
 Passphrase yang diset adalah: `asem`
 
-![isi file server.key](https://1cohug.bay.livefilestore.com/y2p-oZoh7SBbOPAnV-U0Po_b8D9qKFeuLNkFnYXFy1Mx0V6zTu0r1pxghOdF6BVtGR1TOCDatB9Auw9K2c-bE3ceI4vFKRYl2HjECSSs1ob_9Wq4EizJcpRCC_xeiEYjmVE/4.png)
+![isi file server.key](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/4.png)
 
 Isi file server.key
 
@@ -76,11 +76,11 @@ $ sudo openssl req -new -key server.key -out server.csr
 
 Akan muncul tampilan berikut. Yang penting ketika memasukkan Common Name (CN) adalah CN harus sesuai dengan alamat web, nama DNS atau IP address pada konfigurasi Apache. Setelah anda memasukkan informasi tersebut, akan terbentuk file server.csr yang akan digunakan untuk meminta sertifikat. 
 
-![membentuk csr key dari openssl key](https://1cohug.bay.livefilestore.com/y2pd2WhFVQ8jjiR24Vwt6hE6_5VF3ISb9ildIhXOukm9c7dKvlzuC4TJr1xz03z638oKdq2o8BgVsUeT6lM25GkByPy4o-lq5iB_3cggU2wqR3O9FBMv_wyBNx88rfRSnoi/5.png)
+![membentuk csr key dari openssl key](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/5.png)
 
 Membentuk csr key dari openssl key
 
-![Isi file server.csr](https://1cohug.bay.livefilestore.com/y2pdbKx_bMYv717V0jnrdsAaPZ1SwF8oGhZNSQ1VLtI3T9VEpiQUjjK-WORhNGKSyQybYZxqDL9KFOB3ubNPwFR3yHBL9su01bwZ4VmGAVyLTPyesguhxcmp6_mq0tGxBSA/6.png)
+![Isi file server.csr](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/6.png)
 
 Isi file server.csr
 
@@ -94,15 +94,15 @@ $ sudo openssl x509 -req -days 365 -in server.csr -signkey server.key -out serve
 
 Perintah diatas akan meminta anda memasukkan kembali passphrase untuk mengenerate server.key (yaitu 123456). Masukkan passphrase yang sesuai.
 
-![membentuk crt key dari csr key](https://1cohug-ch3301.files.1drv.com/y3pDHR3-xrcn_VhfvJxKIMY-L2NMEedzqTXIZEXsArwqq2S6HMIyYmAZJ0fVKP50Ms9lGNGbjikxMUEHJ3qkPwTHyhc3x6YjAVBKV9ZGGY1_V8hal_jBixfEUnn3K8G8vYI/7.png?rdrts=144166618)
+![membentuk crt key dari csr key](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/7.png)
 
 Membentuk crt key dari csr key
 
-![isi file server.csr](https://1cohug-ch3301.files.1drv.com/y3pH7wWsIPFC6fxL9cOrr2d2EqULCKQXmgSB5QhLH7vgPujUsQC0Q2bVtlTcVKWPMnV8EciIVXHL4TQFo52PrECQpflA7CQ1pWZXNkP-znKm074Wzra_LnD8Gv-Zp9XOHUC/8.png?rdrts=144166618)
+![isi file server.csr](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/8.png)
 
 **10.** Cek lagi directory ssl dan anda seharusnya memiliki 3 file, server.key,server.crt dan server.crs.
 
-![Isi direktori ssl](https://1cohug-ch3302.files.1drv.com/y3pn3-7YVEHX_T6gYyl-OvkeNZi5KSSJE4dlnHCgj6Z9r5ahedroq15DqeJ37iU_yoSz9d92pdTBBgPNe58Kpasf3MZAg7oNT1WN2nN9LI0hILExLUH-x1G1qi3pNJIVGP8/9.png?rdrts=144166618)
+![Isi direktori ssl](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/9.png)
 
 Isi direktori ssl
 
@@ -110,7 +110,7 @@ Isi direktori ssl
 
 **1.** Cek direktori ssl untuk memastikan ada 3 file disini yaitu : server.key,server.crt dan server.crs. Hal ini penting untuk kelancaran konfigurasi kali ini.
 
-![Isi direktori ssl](https://1cohug-ch3302.files.1drv.com/y3pn3-7YVEHX_T6gYyl-OvkeNZi5KSSJE4dlnHCgj6Z9r5ahedroq15DqeJ37iU_yoSz9d92pdTBBgPNe58Kpasf3MZAg7oNT1WN2nN9LI0hILExLUH-x1G1qi3pNJIVGP8/9.png?rdrts=144166618)
+![Isi direktori ssl](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/9.png)
 
 **2.** Enable-kan modul mod_ssl dengan perintah:
 
@@ -118,7 +118,7 @@ Isi direktori ssl
 $ sudo a2enmod ssl
 {% endhighlight %}
 
-![mengakftifkan modul ssl](https://1cohug-ch3302.files.1drv.com/y3pOfDosWXs2raCCa4UOOzOZo3uPv7j8xxEhR138lMLKMt8mmZhHotJABUC2Xfv9JppRMuEm1Gameg20t71TBHGWiFT7BMRkYGQg8AfrPm-jU2iCt0t1zVko02V2HKNkLOB/10.png?rdrts=144166618)
+![mengakftifkan modul ssl](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/10.png)
 
 **3.** Restart apache. Tujuannya agar module ssl berjalan pada apache. Proses ini harusnya berjalan tanpa error.
 
@@ -126,7 +126,7 @@ $ sudo a2enmod ssl
 $ sudo /etc/init.d/apache2 restart
 {% endhighlight %}
 
-![Merestart service apache2](https://1cohug-ch3301.files.1drv.com/y3pOQOtt3XLCneu9xTAIvFop1otS4Yvb3FWXTdxpIZZ2dhXMqzPnrRLl-x8RcHeO_QmEbVsejMneDLuxiE1n0Dc2iMMfccF-Ea_v1C-w73HVE-9awRNSJPoG02PfWVMhZbS/11.png?psid=1&rdrts=144166618)
+![Merestart service apache2](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/11.png)
 
 **4.** Copy file default ke file ke file www.asem.com
 
@@ -135,7 +135,7 @@ $ cd /etc/apache2/sites-available/
 $ cp default www.asem.com
 {% endhighlight %}
 
-![Mengcopy default untuk www.asem.com](https://1cohug-ch3301.files.1drv.com/y3pH3gW8gComtPPtxbXpM9It4FfseL35DjLVwBlOMq8wMPPgYbfWQg225oQSnFvs2TjVa_LNqAQE_A9UXcAS_gb4oSEKDSOv_frqIrYA4EwhN6qjE1KfrLtasEYqQMS5cIj/12.png?psid=1&rdrts=144166618)
+![Mengcopy default untuk www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/12.png)
 
 **5.** Edit file www.asem.com dengan gedit atau pico
 
@@ -167,7 +167,7 @@ Ubah <Directory /var/www/> untuk menunjuk ke direktori asem
 <Directory /var/www/asem>
 {% endhighlight %}
 
-![Mengubah port, server name, dan directory root www.asem.com](https://1cohug-ch3301.files.1drv.com/y3pqB88CdgFMbs5BOOBaV_KevodI3mM-Ewn1MmW5V7E9s31np8JlztV3CYVl4_rS_8ElyFZuAEGwW9Xp6SiYOW4LYJF0wlfuMUYurUuoELe6waPKXeZHGDLeHYbRVe6EbPc/13.png?psid=1&rdrts=144166619)
+![Mengubah port, server name, dan directory root www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/13.png)
 
 Mengubah port, server name, dan directory root www.asem.com
 
@@ -179,7 +179,7 @@ SSLCertificateFile /etc/apache2/ssl/server.crt
 SSLCertificateKeyFile /etc/apache2/ssl/server.key
 {% endhighlight %}
 
-![Menambahkan SSL pada default dari www.asem.com](https://1cohug-ch3302.files.1drv.com/y3pNliJMn1MxAsL7edOMT8C5Hqihcs-5qAr93D1v42YfBAzszwtwrwrakieeoa_z7OgaY2fBOSSQrwhPfoIUtpukQ1RVM9Ake3gnINcs-BzQKyD3jo_a_L2GroHc8edO4bE/14.png?psid=1&rdrts=144166619)
+![Menambahkan SSL pada default dari www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/14.png)
 
 Menambahkan SSL pada default dari www.asem.com
 
@@ -191,7 +191,7 @@ Menambahkan SSL pada default dari www.asem.com
 $ sudo cp /var/www/index.html /var/www/asem/index.html
 {% endhighlight %}
 
-![Mengcopy html index untuk index file www.asem.com](https://1cohug-ch3301.files.1drv.com/y3ppKv_w-vtv1uRjex0gdBe6tKfcIOKrvHTvN6dvjTmGcJs3_qBF_DMEu3By5shIRU-tXT6fR8WifAHsXkR4AxRPZDUYNn5DtO8itcUFl47DYQLfIMpFHs2D48Vrr28xZt1/15.png?psid=1&rdrts=144166619)
+![Mengcopy html index untuk index file www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/15.png)
 
 **8.** Enable-kan website www.asem.com dengan:
 
@@ -199,7 +199,7 @@ $ sudo cp /var/www/index.html /var/www/asem/index.html
 $ sudo a2ensite www.asem.com
 {% endhighlight %}
 
-![Mengaktifkan website www.asem.com](https://1cohug-ch3302.files.1drv.com/y3py6arD9x0MlN4N7IB27Zd4GYIMeBHYLP5eTUDocUBgYgvmO1QomjT58feSDWxUkpF1SHgn5mhybXPvWfyFk8U2l7IiKJEEow-RYCbT2ByVeoiT_iRTPqQ0b-Xrctc-JlF/16.png?psid=1&rdrts=144166619)
+![Mengaktifkan website www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/16.png)
 
 **9.** Edit file /etc/hosts untuk melakukan resolusi domain www.asem.com website ke 127.0.0.1. Cari baris 127.0.0.1 lalu tambahkan baris ini:
 
@@ -207,7 +207,7 @@ $ sudo a2ensite www.asem.com
 127.0.0.1 localhost asem www.asem.com
 {% endhighlight %}
 
-![Menambahkan konfigurasi resolv domain](https://1cohug-ch3301.files.1drv.com/y3pNldIl8-2c1O-3vRSA3VJYmkC_41ZJbTxJvpfxy__ms_qOXDDWL9rrGHhSPyS6P8nToAjAtzfKrGlJX1hCrbE0wCdVE6jNlJQEyPNOQbCWSfBzznwPXUMwGXvXlGz7gqW/17.png?psid=1&rdrts=144166619)
+![Menambahkan konfigurasi resolv domain](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/17.png)
 
 ### Menjalankan https
 
@@ -219,7 +219,7 @@ $ sudo /etc/init.d/apache2 restart
 
 Masukkan passphrase yaitu 123456. Jika cocok maka apache2 akan di-restart dan memberikan tanda [OK].
 
-![merestart service apache2](https://1cohug-ch3302.files.1drv.com/y3pp3quprRUQksoI5Xx__nLrhdAVQfYEvSEQ0HxxqEAlXzu_ty4cjzg0U36AWfkybDncq3A7gjL0sVhfvNvuMU8Yp0MZQ9FBD7QRw9OJd-58uBhGOM7VfFWC77acfBYWn41/18.png?psid=1&rdrts=144166619)
+![merestart service apache2](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/18.png)
 
 **2.** Buka http://localhost pada browser. Jika apache2 berjalan dengan baik, maka akan muncul pesan “It Works!”
 
@@ -227,11 +227,11 @@ Masukkan passphrase yaitu 123456. Jika cocok maka apache2 akan di-restart dan me
 
 **4.** Klik tombol : `I Understand the Risks`, kemudian klik tombol: `Add Exception` dan terakhir klik `Get Certificate`. Klik `View`. Anda akan melihat sertifikat *self-signed* yang tadi anda buat. Setelah itu klik checkbox `Permanently store this exception` dan klik tombol `Confirm Security Exception`.
 
-![Konfigurasi eksepsi https certificate](https://1cohug-ch3301.files.1drv.com/y3pscYNjaZX2sYM_1SVYws12wRUkengeuynCCEbQGpl7tGYWjd5CY0pxvmzuBdrED5LZnECTCvr0w7wtwUcOc0js1sl1xM4SPuoiPHw1H5cb6zJmRFhlebdg_Qdf5IM9yvO/19.png?psid=1&rdrts=144166619)
+![Konfigurasi eksepsi https certificate](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/19.png)
 
 **5.** Akhirnya muncul halaman web yang kita buat. Perhatikan bahwa awal dari URL adalah https, bukan http
 
-![Hasil buka https://www.asem.com](https://1cohug-ch3302.files.1drv.com/y3pY2PUeTvmRQfh-2vkkoyknlmW8fVV2xou8ZygzpHdx_8aMW-paCsx8rNpsw8rgNQU3qeaMQ40jlM_1CNWIi7DYwfIMcMhgRmAZFVKBPZuiQDNrdS7AvOGRbg7FnLx4nMW/20.png?psid=1&rdrts=144166619)
+![Hasil buka https://www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/20.png)
 
 **6.** Pada pojok kiri bawah tampak tanda gembok yang menunjukkan bahwa web server tersebut menggunakan sertifikat.
 
@@ -241,7 +241,7 @@ Masukkan passphrase yaitu 123456. Jika cocok maka apache2 akan di-restart dan me
 
 **8.** Pada tab `Detail`, kita dapat mengtahui siapa issuer sertifikat ini.
 
-![Detail properties certificate issuer](https://1cohug-ch3301.files.1drv.com/y3pyiWu9b5VtzHo0FMsAekbO0wdXNXJB2R0Mq-fvIae43dDRx4jfs-hIoeKCZ6WHq12wyiW5S9XSFNiQjdA_n5nUcxwV5TbKttO2L1wTXkBVKSkkDApqjgdNJTx3_CLuzFe/22.png?psid=1&rdrts=144166619)
+![Detail properties certificate issuer](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/22.png)
 
 ### Pembahasan
 
@@ -249,7 +249,7 @@ Teknologi SSL menggunakan konsep teknologi kriptografi kunci publik untuk bisa m
 
 Cara kerja ssl adalah sebagai berikut:
 
-![Bagan SSL handshake](https://1cohug-ch3301.files.1drv.com/y3p1NzFhOrlESs3FqjfKvilRq1BoHM7cLXxKvGgOzWDxtfr2iWzifwvoMTc1LI8lVbtQfmjvkTRcmVVAo7fw8k5GlwvilOYDpIetJO6OtEC9-qFL9XtuAP0ZeHLEsCUAefH/23.gif?psid=1&rdrts=144166620)
+![Bagan SSL handshake](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/23.gif)
 
 Bagan SSL handshake, dijelaskan sebagai berikut:
 
@@ -265,10 +265,10 @@ Bagan SSL handshake, dijelaskan sebagai berikut:
 
 Pada implementasi nyata, berikut hasil capture handshake menggunakan wireshark:
 
-![Hasil protocol analysis dari ssl sebelum browser mendapat persetujuan user untuk meng- Confirm Security Exception](https://1cohug-ch3302.files.1drv.com/y3pC0FbFarJ7Qj5hTNd-237U4Bj-xkEvjg39sT3_Gf7Tk1oaahlV2r3Dz1Kbp903VFpiEA5bhoYPunVE4FHqvFxGoN5wgiiw_yKRd2fqpvsT4hkNozsmIx47ibDM_DWl1rV/24.png?psid=1&rdrts=144166619)
+![Hasil protocol analysis dari ssl sebelum browser mendapat persetujuan user untuk meng- Confirm Security Exception](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/24.png)
 
 Hasil protocol analysis dari ssl sebelum browser mendapat persetujuan user untuk meng- Confirm Security Exception
 
-![SSL di wireshark](https://1cohug-ch3302.files.1drv.com/y3pANewxAaq5_D6P30ewlG-19k5APhlK7qOCu-FAw7_0BRMyY7YcV1c5WRQsVNYmcx-PEVJzSGHmG3gU6_S7EPqE4pgOCtXeDS5od9B6xzbc6ACm7iYu6-6snuOwYK0j2j5/25.png?psid=1&rdrts=144166619)
+![SSL di wireshark](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/25.png)
 
 Hasil protocol analysis dari ssl sebelum browser mendapat persetujuan user untuk meng-`Confirm Security Exception`. SSL berjalan seperti pada Bagan SSL handshake
