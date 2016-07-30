@@ -138,7 +138,7 @@ Kelompok D di Panasonic Center
 
 dan satu lagi hasil dari Panasonic Center
 
-![Augmented Reality based photo](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan.jpg)
+![Augmented Reality based photo](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/VTMJLT_yUBUqhup64.jpg)
 
 Augmented Reality based photo sebelum diberi efek
 

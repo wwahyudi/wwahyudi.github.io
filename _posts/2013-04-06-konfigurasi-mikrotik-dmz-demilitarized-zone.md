@@ -16,7 +16,7 @@ Demilitarized zone digunakan untuk mengamankan jaringan internal dari akses ekst
 
 Pada pembahasan kali ini digunakan MikroTik RouterBoard 1100.
 
-![MikroTik RouterBoard 1100](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/1.jpg)
+![MikroTik RouterBoard 1100](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/1.jpg)
 
 Pada pembahasan ini digunakan 3 NIC dengan detail penggunaan sebagai berikut:
 
@@ -24,67 +24,67 @@ Pada pembahasan ini digunakan 3 NIC dengan detail penggunaan sebagai berikut:
 2. eth2  dengan 192.168.2.1, private IP address, DMZ connected ke Web server.
 3. eth3 dengan 192.168.1.1 private IP address, jaringan privat digunakan untuk client.
 
-![Network topologi](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/2.png)
+![Network topologi](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/2.png)
 
 Untuk mempermudah konfigurasi, digunakan Winbox, utility untuk melakukan remote GUI ke Router Mikrotik. For windows. Berikut pengkonfigurasian yang telah dicoba:
 
 **1.** Login pada MikroTik. Pertama buat koneksi antara MikroTik dengan EEPIS server, buat eth1 untuk mendapatkan hasil DHCP dari EEPIS server. Berikut hasil DHCP client pada eth1.
 
-![Login ke mikrotik](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/3.jpg)
+![Login ke mikrotik](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/3.jpg)
 
 **2.** Jika diperlukan beri komentar pada Ethernet port yang dipakai, berikut hasil pemberian komentar pada eth port sesuai dengan ketentuan diatas.
 
-![Tambah komen](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/4.jpg)
+![Tambah komen](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/4.jpg)
 
 **3.** Buka terminal MikroTik, pertama lihat hasil pada semua interface
 
-![Lihat interface](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/5.jpg)
+![Lihat interface](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/5.jpg)
 
 **4.** Assign ip address 192.168.1.1 pada eth3. Kemudian cek perubahannya
 
-![Assign IP ke eth3](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/6.jpg)
+![Assign IP ke eth3](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/6.jpg)
 
 **5.** Tambahkan ip address 10.252.108.1 (gateway dari server EEPIS) sebagai gateway dari ip yang dianggap sebagai public IP. Cek hasil penambahannya.
 
-![Tambah gateway](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/7.jpg)
+![Tambah gateway](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/7.jpg)
 
 **6.** Untuk membuat DHCP server, assign DNS servernya. DNS server yang digunakan adalah DNS server dari EEPIS yaitu 202.9.85.3. Set remote remote request menjadi yes untuk menentukan apakah akan server DNS memperbolehkan network requests. Ketika remote remote request diaktifkan, router MikroTik menanggapi TCP dan UDP DNS permintaan pada port 53. Kemudian cek hasil penambahannya.
 
-![Set DNS](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/8.jpg)
+![Set DNS](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/8.jpg)
 
 **7.** Kemudian buat DHCP service untuk eth3 dengan network space 192.168.1.0/24 dengan gateway 192.168.1.1 pada DNS server EEPIS yang udah diset sebelumnya. Konfigurasi lebih lanjut terlihat pada gambar dibawah ini.
 
-![Set DHCP](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/9.jpg)
+![Set DHCP](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/9.jpg)
 
 **8.** Kemudian untuk eth2 lakukan assign IP yaitu 192.168.2.1.
 
-![Assign IP ke eth2](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/10.jpg)
+![Assign IP ke eth2](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/10.jpg)
 
 **9.** Tambahkan source NAT atau srcnat dengan action masquerade. Scrnat adalah jenis NAT yang mentranslasi paket yang berasal dari jaringan yang telah di-NAT. Router NAT akan mentranslasikan paket yang berasal dari IP address private ke IP address publik ketika melalui router. Pengembalian paket balasan akan dilakukan dengan me-reverse operasi srcnat. Masquerading akan mengubah alamat IP sumber dan port dari paket berasal dari jaringan 192.168.1.0/24 ke alamat 10.255.108.114 dari router ketika paket yang diarahkan melalui router tersebut.
 
-![Tambah source NAT](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/11.jpg)
+![Tambah source NAT](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/11.jpg)
 
 **10.** Kemudian,juga tambahkan destination NAT atau dstnat dari semua source pada IP tujuan 10.252.108.14 pada protocol TCP kearah 192.168.2.2 ke port 80 dimana pada IP 192.168.2.2:80  sudah disiapkan sebuah web service . Dstnat adalah jenis NAT yang mentranslasi paket yang berasal dari jaringan yang mengakses IP public (10.252.108.14) ke jaringan local (private) dan mem-forward-nya ke IP yang sudah di-assign yaitu 192.168.2.2:80.
 
-![Tambah destination NAT](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/12.jpg)
+![Tambah destination NAT](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/12.jpg)
 
 ### Hasil percobaan pada Client
 
 Hasil DHCP service yang diberikan oleh DHCP server MikroTik.
 
-![DHCP yang didapat client](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/13.png)
+![DHCP yang didapat client](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/13.png)
 
 Hasil ping client (private network ke 192.168.1.1 dan ke IP public 10.252.108.14)
 
-![Ping dari client](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/14.png)
+![Ping dari client](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/14.png)
 
 Hasil akses client ke website luar – website EEPIS
 
-![Akses ke website luar](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/15.png)
+![Akses ke website luar](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/15.png)
 
 Ketika IP public diakses, maka langsung di forward ke 192.168.2.2 bukan mengakses 192.168.1.1/webconfig
 
-![DMZ portal](images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/16.png)
+![DMZ portal](http://sapikuda.com/images/posts/2013-04-06-konfigurasi-mikrotik-dmz-demilitarized-zone/16.png)
 
 ### Kesimpulan
 
