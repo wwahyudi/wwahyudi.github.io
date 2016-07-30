@@ -25,7 +25,7 @@ Dalam pengoperasiannya, Snort memiliki 3 mode yaitu:
 
 Pada pembahasan kali ini digunakan MikroTik RouterBoard 1100.
 
-![MikroTik RouterBoard 1100](https://7zet9g.bay.livefilestore.com/y2pmi0fMZ0Ev2ZAgHXUv5Ve087RZP_ZiEt9woGLnzpGo40xGhAoFm3EJMAgr9L4MU9OQl1b7bP4AkKhEqXa8f7R_k1M8hoVEvp_9H9plNZ28qH5s2n0o4zExYp7Jp5CP4mU/1.jpg?psid=1)
+![MikroTik RouterBoard 1100](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/1.jpg)
 
 Pada pembahasan ini digunakan 3 NIC dengan detail penggunaan sebagai berikut:
 
@@ -35,7 +35,7 @@ Pada pembahasan ini digunakan 3 NIC dengan detail penggunaan sebagai berikut:
 
 Berikut penggambaran skema pada pembahasan:
 
-![penggambaran skema pada pembahasan](https://7zet9g.bay.livefilestore.com/y2pmQS7ugCVxtuRlpwGTSKcnpC-BMmlSmiuffGS6O80FLoaF2Zsm9DeNdsepHQswa3Xd5jmphRE5MjiX8WSHc5Eut4Ma2aVM1xaxUHAHPus0nflwGBDJ35qbF-WP754Vxjh/2.jpg?psid=1)
+![penggambaran skema pada pembahasan](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/2.jpg)
 
 Setelah konfigurasi router dan clientsudah dibuat, lingkungan dapat digunakan untuk melakukan percobaan menggunakan Snort.
 
@@ -49,7 +49,7 @@ Lakukan instalasi snort pada Client1. Pada percobaan ini Client1 digunakan sebag
 
 Kemudian masukkan range network yang akan dianalisa. Berikut hasil input range network untuk instalasi snort:
 
-![input range network untuk instalasi snort](https://7zet9g.bay.livefilestore.com/y2pQKz-dN0f4tzXc5BdauwkEwkxDJk_9EjeaE-8Do79khY-7rrNnGKwXllUTto7TdjTL3AUc1eJ0SaPTAMOdX-P3nFvkMAaSMkX6wZuG8Q3jKz-CH1-ybju5m_VcTeOqcNt/3.png?psid=1)
+![input range network untuk instalasi snort](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/3.png)
 
 ### Menjalankan Snort dalam Sniffer mode
 
@@ -61,7 +61,7 @@ Seperti sudah dibahas diatas bahwa Snort memiliki 3 mode pengoperasian, pada pem
 
 Berikut hasil perintah #snort –v:
 
-![hasil perintah #snort –v](https://7zet9g.bay.livefilestore.com/y2pC8o19V1_YewytogTgPQeOu5QHV6ZaS4i3g_idgsqYlCDqcfV8hY9XdBxzvOjcTLqMgiqE5qePDD-uCBZSR-8ibJQ_aovtay4sWQokjIFKPu9kx-wV9C8j9SmAV2CWPR6/4.png?psid=1)
+![hasil perintah #snort –v](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/4.png)
 
 Setelah startup, Snort menampilkan mode, logging directory dan interface Snort langsung me-listen pada port. Kemudian Snort mulai men-dump paket.  Snort akan meng-generate ringkasan paket yang diambil, termasuk protokol dan statistik lainnya, seperti fragmentasi paket. Opsi -d akan menampikan data aplikasi. Opsi ini menyediakan output bahkan lebih rinci. Data aplikasi terlihat jelas dan dapat melihat teks biasa dalam paket.
 
@@ -70,14 +70,14 @@ Setelah startup, Snort menampilkan mode, logging directory dan interface Snort l
 {% endhighlight %}
 
 Berikut hasil perintah #snort –vd:
-![hasil perintah #snort –vd](https://7zet9g.bay.livefilestore.com/y2pK7S-5B1yvWfkKR-tqVE44LDReOc0Q_tb9jb5d5r2QW_DqMO_W3nE6dqkrUGT-3E1YvTRg38HguI9cI2mrxTA6QYlnoCfq1u3zjQz1NZqXiAcE35VURo9kSO5CFobcHra/5.png?psid=1)
+![hasil perintah #snort –vd](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/5.png)
 
 {% highlight bash %}
 #snort –vde
 {% endhighlight %}
 
 Berikut hasil perintah #snort –vde:
-![Berikut hasil perintah #snort –vde:](https://7zet9g.bay.livefilestore.com/y2pH30NFAPIvtaEHjG6uyGWLSp-LbNY2xFtyYTO0Q8PDdWUJ84_ubHXSb7bmbaz-Owg-BunFSbaWHuZEjCAsLGuPka-ToAMzF9lWBocvb6sud-AFwFXnWD3SoNWtrxCb0HW/6.png?psid=1)
+![Berikut hasil perintah #snort –vde:](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/6.png)
 
 Kebanyakan jaringan akan menghasilkan load off traffic dan output sniffer Snort ke layar akan bergulir dengan sangat cepat. Jadi lebih baik untuk mengarahkan output ke sebuah file log gantinya.
 
@@ -87,7 +87,7 @@ Kebanyakan jaringan akan menghasilkan load off traffic dan output sniffer Snort 
 
 Berikut hasil perintah #snort –v –d –e:
 
-![hasil perintah #snort –v –d –e](https://7zet9g-ch3301.files.1drv.com/y3pD1CbsYm8qaS_GmBtoq6BuGSsff224Sudrj2fV9UaHTE7p7BTqwtOlAyQEg4_SVrjUCrS2wjac99P0vAXJxB_CEfswo1VcFWR7M24fVPxL9QTPfn2TTDJz0MyE86jbR9H/7.png?psid=1&rdrts=144168776)
+![hasil perintah #snort –v –d –e](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/7.png)
 
 dengan menambahkan beberapa switch –v, -d, -e akan menghasilkan beberapa keluaran yang berbeda, yaitu:
 
@@ -105,11 +105,11 @@ Karena output sniffer Snort ke layar akan bergulir dengan sangat cepat, untuk me
 
 Berikut hasil me-log-kan hasil snort pada snort.log
 
-![hasil me-log-kan hasil snort pada snort.log](https://7zet9g-ch3301.files.1drv.com/y3pZKAzfosdcA43qEtghztjiA48q6aa2mhua0hxxvBjK6mn7HLqy5yRnHm3D2Rj2pj6C5XPjVn2mnnPrapS3-qeBRyIAj2eBOcBLGBRa9o0rw3tMneBKhX-BU5fg8DbyOfo/8.png?psid=1&rdrts=144168776)
+![hasil me-log-kan hasil snort pada snort.log](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/8.png)
 
 Akan menghasilkan sebuah file di folder /var/log/snort. Berikut hasil perintah # ls dari folder /var/log/snort:
 
-![hasil perintah # ls dari folder /var/log/snort](https://7zet9g-ch3301.files.1drv.com/y3pvCnCJmXvpRXR22RSkrpgwy2nl0hn4eYLtvyg_qKqGG8TM4iposCFKeE9zey5xrRWcAMegW2HO-kEyFIlAKZAS73xItTIZEP-RxjTLnAA1kx5QDmTz4wUGN_cTtq_uJ72/9.png?psid=1&rdrts=144168776)
+![hasil perintah # ls dari folder /var/log/snort](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/9.png)
 
 Untuk membaca file snort (misal: snort.log.1234) berikan option –r pada snort
 
@@ -119,7 +119,7 @@ Untuk membaca file snort (misal: snort.log.1234) berikan option –r pada snort
 
 Berikut hasil read dari snort.log yang sudah digenerate
 
-![hasil read dari snort.log yang sudah digenerate](https://7zet9g-ch3301.files.1drv.com/y3p0UVvSlDXloQxfHz6hfTwRqowpeZdvW4LbgbE3dw4hlQ20IruVW3BNWzhJ4qCWes0n0hzbWZqRiBkv7prLb5fm5iuCHrIF2DFFIYdq2tKOzhjkQ3dHAKtRh72NAS3PYrL/10.png?psid=1&rdrts=144168776)
+![hasil read dari snort.log yang sudah digenerate](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/10.png)
 
 Log yang di-generate oleh Snort adalah log yang dienkripsi sehingga harus dibaca dengan pertintah diatas.
 
@@ -135,7 +135,7 @@ Untuk menjalankan snort dengan mode NIDS, opsi e dihilangkan karena kita tidak p
 
 Berikut hasil eksekusi perintah dari snort running In IDS mode:
 
-![hasil eksekusi perintah dari snort running In IDS mode](https://7zet9g-ch3302.files.1drv.com/y3p0xFGQwy3uhWXAmrVFqMPfI7u3RsKcspPNvHV8rOm0AnP5lJ4yPHjTo_lt3bjWHU95A5BYoIf5RbQzVKMa1onOry7_cwTTGLLbvCyKro9Pw5UaroMeo0_rdwR3kFtrv3I/11.png?psid=1&rdrts=144168779)
+![hasil eksekusi perintah dari snort running In IDS mode](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/11.png)
 
 Untuk mengetahui kerja Snort dalam NIDS mode, jalankan scanning dari komputer lain (PC Client) dengan nmap menuju komputer yang anda pasangi snort (PC Server). Terlebih dulu jalankan snort dengan mode NIDS, kemudian lakukan scanning dengan perintah:
 
@@ -145,7 +145,7 @@ Untuk mengetahui kerja Snort dalam NIDS mode, jalankan scanning dari komputer la
 
 Berikut merupakan hasil nmap dari client2 ke client 1:
 
-![hasil nmap dari client2 ke client 1](https://7zet9g-ch3301.files.1drv.com/y3p3tSYJf2WfPz5oGq0ii1cqePevaScYSnhSFKkuVKCkHwDPS3GR463WWYPsMAO2hjTMYPAMtMr1QdhR0YtFwuf2gLPht9TOy-YVnd-PThTzzqUGpd3qgeu5EK3bethNyKC/12.jpg?psid=1&rdrts=144168777)
+![hasil nmap dari client2 ke client 1](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/12.jpg)
 
 Setelah di scan menggunakan nmap. Untuk melihat apa yang dicatat oleh snort, dapat di hasil log snort, atau untuk mempermudahnya, dapat dilihat di alert log snort. Berikut hasil yang di tangkap oleh alert log snort pada port 53.
 
@@ -167,12 +167,12 @@ alert tcp any any -> any any (msg:"TCP Traffic";sid:1000002;rev:0;)
 
 Rule diatas bermaksud untuk memberikan alert ketika ada transaksi dat TCP dari Ip berapa saja dan port berapa saja kemudia ke IP berapa saja ke port berapa saja dengan konten 10.252.108.99 akan memberikan pesan seperti diatas.
 
-![membuat rule](https://7zet9g-ch3302.files.1drv.com/y3pUiPz5AB5PeFGtPOpe7paZ2OwK76rfm8tUyWpKdQoljbINb6Ua4IHh89xdzlVjsTLW_SgIQFIKosQzvqLySZ4H-dzG1_SN1o5ZISXV5yYKXkPygEzbgW042AJpjM6SuS-/13.png?psid=1&rdrts=144168777)
+![membuat rule](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/13.png)
 
 Kemudian tambahkan include $RULE_PATH/alltcp.rules pada /etc/snort/snort.conf. kemudian restart service snort.
 
-![restart service snort](https://7zet9g-ch3301.files.1drv.com/y3p_yLSi2JoNs78uTPHyIPfzgE4H5DNbAqQKuwxphGq_LZ2OBZdeyoXQEpesMB8-2lDQSu_3WdsdfmJzd1SSRBs6LCcOG695hL2fWWxBNdQVR6jLfzVb9LZqRr3zfz5hnIa/14.png?psid=1&rdrts=144168778)
+![restart service snort](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/14.png)
 
 Hasilnya adalah
 
-![Hasil penerapan rule](https://7zet9g-ch3302.files.1drv.com/y3p3a7yqlhik_vLxMnnBkp_5s5KzJqsKiNsXn6ZjHouGoehL0s2ba_8xmuQuatE1R8iQ1rBZgMkrdld0BCeh14zkz3WaIFGxS9VA0wgu8PqIXyWg34w1QkYvgTLpgUVUpO3/15.png?psid=1&rdrts=144168779)
+![Hasil penerapan rule](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/15.png)
