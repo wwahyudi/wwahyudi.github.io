@@ -18,6 +18,6 @@ So I just configure DHCP Server on Windows Server 2008 R2, and accidently I conf
 8. Insert the new IP address and click add.
 9. Click Apply then OK.
 
-![Just picture guide](https://7dcogw.dm2301.livefilestore.com/y3pRjyR1k5DUyI3X-DIyn6InyTxppgonZILs7VLjPpzvT6QjddOt9FXTtYljC3vXQ1mNKrvae0rvgG0zrG79yQNVI8B_P7ZJCSG3FCO7TG-_hvt6oIMFwqH-iJLStR0qjlgH5b2NFvvigJ9fYbRgGYTMZQL04wPWb1sQqN51zHABUw/2016-07-25_190200.png)
+![Just picture guide](http://sapikuda.com/images/posts/2016-07-25-change-dns-in-dhcp-server/2016-07-25_190200.png)
 
 And done.

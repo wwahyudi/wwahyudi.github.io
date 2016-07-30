@@ -7,7 +7,7 @@ categories: suse
 ---
 
 So before, I've installed new fresh SuSE 11 on my laptop as a VM. Then when I was ssh it through putty, it showed lines as lqqqqqqqqqqqqqqq and so on, like this:
-![desk](https://7jddba.dm2301.livefilestore.com/y3pgsBe0YSnER05JOQOmV3k-znyzXh-L3KPW0N2SZyyQRiIDT82sgtNS4UmKQm8w6U_1yPlH5QmjlNtCBt1fxmfWWZIVfOhL29msrdBsKqahg4SBtZ3Yhzhsyyzkv_oZeEd6uEkmHQMsIPXcQ5I63cOQUtQSs0k3G9Yrkv00lf-gnE/why-does-yast-now-show-lines-as-lqqqqqqqqqqqqqqq-1.png)
+![desk](http://sapikuda.com/images/posts/2015-11-05-yast-show-line-as-lqqqqqqqqqqq/why-does-yast-now-show-lines-as-lqqqqqqqqqqqqqqq-1.png)
 
 It was difficult to read, and also bit annoyed me. So I googled and found on [superuser.com](http://superuser.com/questions/735269/why-does-yast-now-show-lines-as-lqqqqqqqqqqqqqqq), and they suggest to set to add this command:
 {% highlight sh %}
