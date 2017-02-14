@@ -57,10 +57,10 @@ active
 ![active](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/8.png)
 
 {% highlight bash %}
-format fs=NTFS
+format fs=NTFS quick
 {% endhighlight %}
 
-![format fs=NTFS](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/9.png)
+![format fs=NTFS quick](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/9.png)
 
 {% highlight bash %}
 assign
