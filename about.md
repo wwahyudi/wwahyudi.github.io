@@ -5,10 +5,4 @@ permalink: /about/
 tags: about
 ---
 
-Widya Wahyudi is a foolish person who tried to learn how to write a blog, so he must *go-blog* (red: in Javanese, word '*goblog*' means stupid) on this blog.
-
-Born in Malang, East Java and he grew up there. Unfortunately, the earth was taken over by aliens from Mars, so his parent took him on a small rocket and made him landed on a hot doomed city, Surabaya. He was lost and finally joined the magical school named Politeknik Elektronika Negeri Surabaya. Then he started to learn some magic power like PHP, Java, and ~~f**king damn~~ hard spelling magic spell. He also learned about some black magic which make some junky servers to communicate. But he didn't learn much because too much Dota (also Dota2), Skyrim, and mostly he thought about absolutely nothing.
-
-But when he graduated from that magical school, he vanished.
-
-And some things that should not have been forgotten were lost. History became legend, legend became myth and for two and a half thousand years, he reappeared. Someone discovered him as a magic caster. And although his magic skills are not even great, he still has a lot to learn before he's ready to save anyone. But we should believe he can save the world.
+I’m a professional idiot. Roaming around equator. I am an abstract organism, a concrete analyst, and a ruthless bookie. Critics worldwide swoon over my original line of corduroy evening wear. I don't perspire. I am a private citizen, yet I receive fan mail. I have been caller number nine and have won the weekend passes. Last summer I toured China with a traveling centrifugal-force demonstration. I bat .400. My deft floral arrangements have earned me fame in international botany circles. Children trust me. I balance, I weave, I dodge, I frolic, and my bills are all paid. On weekends, to let off steam, I participate in full-contact origami. Years ago I discovered the meaning of life but forgot to write it down. I have made extraordinary four course meals using only a mouli and a toaster oven. I breed prizewinning clams. I have won bullfights in Surabaya, cliff-diving competitions in Java Island, and spelling bees at the Jakarta. I have played Hamlet, I have performed open-heart surgery, and I have spoken with Elvis.
