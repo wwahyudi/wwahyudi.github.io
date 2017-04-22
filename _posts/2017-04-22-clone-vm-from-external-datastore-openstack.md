@@ -13,7 +13,7 @@ So I was worked for some Openstack which is branded as FusionSphere Openstack 6.
 nova show $VM-ID
 {% endhighlight %}
 for example:
-{% highlight bash %}
+{% highlight %}
 nova show abb8709e-702d-4b0c-9e51-672ce419cebf
 {% endhighlight %}
 
