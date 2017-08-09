@@ -48,9 +48,9 @@ Hari berikutnya kami masih mempunyai 1 hari sebelum pulang, kami jalan-jalan ke 
 
 Warung di Malioboro
 
-![Beli Bakpia](http://sapikuda.com/images/posts/2012-05-02-jogjakarta-windows-8-hackathon-2012/7.JPG)
+[comment]: <> ![Beli Bakpia](http://sapikuda.com/images/posts/2012-05-02-jogjakarta-windows-8-hackathon-2012/7.JPG)
 
-Beli Bakpia
+[comment]: <> Beli Bakpia
 
 ![Setelah beli Bakpia](http://sapikuda.com/images/posts/2012-05-02-jogjakarta-windows-8-hackathon-2012/8.JPG)
 
