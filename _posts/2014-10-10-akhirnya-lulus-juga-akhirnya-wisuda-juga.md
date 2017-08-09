@@ -12,7 +12,7 @@ TERIMA KASIH BANYAK!
 
 [comment]: <> ![Mawar](http://sapikuda.com/images/posts/2014-10-10-akhirnya-lulus-juga-akhirnya-wisuda-juga/lulus%20%281%29.jpg)
 
-[comment]: # Terima kasih untuk "Mawar" yang sudah mau datang. Thank a lot for coming.
+[comment]: <>  Terima kasih untuk "Mawar" yang sudah mau datang. Thank a lot for coming.
 
 ![H+1](http://sapikuda.com/images/posts/2014-10-10-akhirnya-lulus-juga-akhirnya-wisuda-juga/lulus%20%282%29.JPG)
 
