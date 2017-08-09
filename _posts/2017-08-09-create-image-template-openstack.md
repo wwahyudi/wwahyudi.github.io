@@ -77,7 +77,7 @@ Then install the OS based on OS installation wizard.
 
 #### <i class="icon-cog"></i> Installing VirtIO driver
 
-If VirtIO driver need to be installed, you can install it without shutdown the emulation. Hold <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>2</kbd>, then change it with these commands:
+If VirtIO driver need to be installed, you can install it without shutdown the emulation. Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>2</kbd>, then change it with these commands:
 
 1. Check where DVD was mounted 
 ```
@@ -92,6 +92,8 @@ change ide1-cd0 <iso directory>
 ```
 
 ![Change DVD 2](http://sapikuda.com/images/posts/2017-08-09-create-image-template-openstack/change-dvd-2.png)
+
+Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>1</kbd> to back to VNC main screen.
 
 #### <i class="icon-cog"></i> Upload Image to Glance
 
