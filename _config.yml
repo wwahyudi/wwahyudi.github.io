@@ -6,6 +6,7 @@ description: "Just a random website by random people"
 baseurl:     ""
 url:         "http://sapikuda.com"
 date_format: "%-d %b %Y"
+private:     "http://private.sapikuda.com"
 
 # Google services
 google_verification:
