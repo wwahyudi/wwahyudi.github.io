@@ -2,7 +2,7 @@
 layout:     post
 title:      Fix ERROR BadRequest Port Not Usable for Instance
 date:       2017-09-19
-summary:   	How to fix ERROR (BadRequest): Port [port-id] not usable for instance [instance-id]. (HTTP 400) (Request-ID: req-[request-id])
+summary:   	How to Fix ERROR BadRequest Port Not Usable for Instance
 categories: openstack
 ---
 
