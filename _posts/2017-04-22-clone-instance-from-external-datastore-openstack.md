@@ -1,16 +1,16 @@
 ---
 layout:     post
-title:      Clone VM from External Datastore on Openstack
+title:      Clone Instance from External Datastore on Openstack
 date:       2017-04-22
-summary:   	Clone VM from external datastore on Openstack 
+summary:   	Clone Instance from external datastore on Openstack 
 categories: openstack
 ---
 
-So I was worked for some Openstack which is branded as FusionSphere Openstack 6.0. It's an Openstack that made by Huawei. On this environment Openstack version is Juno (Nova version `2014.2`). My objective on this post is creating a VM clone where the VM was created on external datastore. 
+So I was worked for some Openstack which is branded as FusionSphere Openstack 6.0. It's an Openstack that made by Huawei. On this environment Openstack version is Juno (Nova version `2014.2`). My objective on this post is creating an instance clone where the instance was created on external datastore. 
 
-1. First one, we need to look for the attached volume ID from the VM.
+1. First one, we need to look for the attached volume ID from the instance.
 ```
-nova show $VM-ID
+nova show $instance-ID
 ```
 for example:
 ```
@@ -55,4 +55,4 @@ for example:
 glance image-update 7d7211fd-6404-4a89-b7d0-2e85bd534c5f --is-public=true
 ```
 
-6. Then create new VM based on new cloned image that you have been made.
+6. Then create new instance based on new cloned image that you have been made.
