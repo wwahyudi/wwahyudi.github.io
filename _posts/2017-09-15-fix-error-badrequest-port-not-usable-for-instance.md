@@ -36,7 +36,7 @@ HOSTNAME:~ # nova show beb834cf-7bde-40d7-8097-92e26777f380
 +--------------------------------------+---------------------------------------------------------------+
 | created                              | 2017-07-12T13:41:22Z                                          |
 | flavor                               | some-instance-flavour (2bb2e97f-4b6c-40c5-8178-4c7608117808)  |
-| hostId                               | CBTCNBICTCT01                                                 |
+| hostId                               | HOSTNAME                                                 |
 | id                                   | beb834cf-7bde-40d7-8097-92e26777f380                          |
 | image                                | windows_server_2012_r2 (d6804d69-c212-48c4-b32f-2718d3b18857) |
 | name                                 | instance-name                                                 |
