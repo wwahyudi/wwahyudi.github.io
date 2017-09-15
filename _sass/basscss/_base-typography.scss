@@ -55,12 +55,21 @@ blockquote {
   margin-top: $space-3;
   margin-bottom: $space-3;
   margin-left: 0;
+  
+  /*
   padding-left: $space-2;
   padding-right: $space-2;
+  */
+
+  background-color: rgba(128,128,128,0.05);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+  padding: 15px 20px !important;
 }
 
 blockquote,
-blockquote p {
+blockquote p * {
   font-size: $h6;
   font-style: normal;
 }
