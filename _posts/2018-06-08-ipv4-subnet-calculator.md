@@ -586,3 +586,5 @@ p.subnet {
     </tr-->
   </tbody>
 </table>  
+
+<p>Source code taken from <a href="https://github.com/davidc/subnets" target="_blank">davidc/subnets</a></p>
