@@ -527,6 +527,9 @@ p.subnet {
   background-color: #cccccc;
 }
 
+.source {
+  font-size: 0.5em;
+}
 </style>
 
 <table class="noborder">
@@ -587,4 +590,6 @@ p.subnet {
   </tbody>
 </table>  
 
-<p>Source code taken from <a href="https://github.com/davidc/subnets" target="_blank">davidc/subnets</a></p>
+<br>
+<br>
+<p class="source">Source code taken from <a href="https://github.com/davidc/subnets" target="_blank">davidc/subnets</a></p>
