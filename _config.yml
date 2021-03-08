@@ -1,10 +1,10 @@
 # Site settings
-title:       Some Random Website
-email:       widya.wahyudi@gmail.com
-author:      Widya Wahyudi
-description: "Just a random website by random people"
-baseurl:     ""
-url:         "https://sapikuda.com"
+title: "Some Random Website"
+email: "widya.wahyudi@gmail.com"
+author: "Widya Wahyudi"
+description: "Just a random website by random person"
+baseurl: ""
+url: "https://sapikuda.com"
 date_format: "%-d %b %Y"
 
 # Google services
@@ -17,10 +17,10 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
+animated: false
+show_related_posts: false
+show_post_footers: false
+show_social_icons: false
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
@@ -69,41 +69,41 @@ text:
     newer: 'Newer'
     older: 'Older'
   share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
+    text: 'Share this post!'
+    facebook: 'Share on Facebook'
+    twitter: 'Share on Twitter'
+    googleplus: 'Share on Google+'
+    linkedin: 'Share on LinkedIn'
+    digg: 'Share on Digg'
+    tumblr: 'Share on Tumblr'
+    reddit: 'Share on Reddit'
+    stumbleupon: 'Share on StumbleUpon'
+    hackernews: 'Share on Hacker News'
   post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
+    updated: 'Updated'
+    minute_read: 'minute read'
+    related_posts: 'Related Posts'
   index:
     coming_soon: 'Coming soon...'
   contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
+    email: 'Email Address'
+    content: 'What would you like to say?'
+    subject: 'New submission!'
+    submit: 'Say Hello'
     ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
+      sending: 'sending..'
+      sent: 'Message sent!'
+      error: 'Error!'
   thanks: 'Thanks for contacting us. We will reply as soon as possible.'
   og_locale: 'en_US'
 
 # Build settings
-markdown:     kramdown
-highlighter:  rouge
+markdown: kramdown
+highlighter: rouge
 redcarpet:
   extensions: ['smart', 'tables', 'fenced_code_blocks','with_toc_data']
-permalink:    pretty
-paginate:     4
+permalink: pretty
+paginate: 4
 sass:
   compressed: true
 gems:
