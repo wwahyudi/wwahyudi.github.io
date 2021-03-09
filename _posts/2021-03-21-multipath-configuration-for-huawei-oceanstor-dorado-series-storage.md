@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Multipath Configuration for HUAWEI XSG1 Storage
+title:      Multipath Configuration for Huawei OceanStor & Dorado Series Storage
 date:       2021-03-21
 summary:    Configure multipath on Huawei Storage (OceanStor or Dorado Series) on RHEL
 categories: linux huawei storage multipath
