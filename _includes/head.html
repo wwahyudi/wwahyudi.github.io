@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ site.title | strip_html }}{% if page.title %} cd {{ page.title | strip_html | slugify }} {% endif %}</title>
+    <title>{{ site.title | strip_html }}{% if page.title %} cd {{ page.title | strip_html | truncatewords: 3, "..." | slugify }} {% endif %}</title>
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <link rel="dns-prefetch" href="//cdn.mathjax.org">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
