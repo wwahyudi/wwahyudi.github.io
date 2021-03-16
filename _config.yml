@@ -108,8 +108,12 @@ redcarpet:
 permalink: pretty
 paginate: 4
 sass:
-  compressed: true
-gems:
+#  compressed: true
+# parameter not worked, https://jekyllrb.com/docs/assets/#sassscss changed to style: compressed
+  style: compressed
+# gems: 
+# Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly.
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
