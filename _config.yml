@@ -36,6 +36,9 @@ facebook_comments:
 facebook_appid:
 facebook_comments_number: 10
 
+# Enable font awesome
+font_awesome: true
+
 # Social icons
 github_username:
 bitbucket_username:
