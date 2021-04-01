@@ -15,3 +15,7 @@ Short about Pucukan Village, Pucukan Village, located in an isolated area of Eas
 </div>
 
 EGO or EEPIS GREEN Organization is an organization we have created for disaster mitigation research especially on the information system. You may find our Facebook feed, which posts about our activity on here. Maybe it will not update, all of us have graduated from PENS (yes, EEPIS is English name for PENS).
+
+![Pasukan EGO](//sapikuda.com/images/posts/2016-03-26-eepis-green-organization-pucukan-village/IMG_0320.JPG)
+
+With kids from Pucukan Village
