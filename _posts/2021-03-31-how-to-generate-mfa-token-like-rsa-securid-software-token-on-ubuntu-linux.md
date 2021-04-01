@@ -45,4 +45,4 @@ $ stoken tokencode --pin=0000
 96235412
 ```
 
-`stoken` also available in [Kevin Cernekee's Github](https://github.com/cernekee/stoken) and for manual can be found on [Ubuntu man page])http://manpages.ubuntu.com/manpages/xenial/man1/stoken.1.html).
+`stoken` also available in [Kevin Cernekee's Github](https://github.com/cernekee/stoken) and for manual can be found on [Ubuntu man page](http://manpages.ubuntu.com/manpages/xenial/man1/stoken.1.html).
