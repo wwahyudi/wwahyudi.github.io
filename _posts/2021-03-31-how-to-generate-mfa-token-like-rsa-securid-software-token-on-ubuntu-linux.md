@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      How to generate MFA token like RSA SecurID Software Token on Ubuntu Linux?
+title:      How to Generate MFA Token like RSA SecurID Software Token on Ubuntu Linux?
 date:       2021-03-31
 summary:    How I can generate a MFA token like RSA SecurID Software Token on Ubuntu Linux
 categories: mfa
