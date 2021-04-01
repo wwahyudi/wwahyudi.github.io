@@ -14,13 +14,13 @@ The first step that you need to do, of course, is to plug a USB stick into your 
 
 Next, go to your command prompt by typing `cmd` from `Start Menu`. Right-click and select `Run as administrator`. Remember to be run as administrator because if cmd not be run as administrator, some commands  may cannot be executed. **This step is used if the USB drive you've never used as a bootable USB installer. If you've ever used a USB flash drive as a USB installer you may directly go to step 6 to record reformat your USB flash drive.**
 
-![open cmd](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/1.png)
+![open cmd](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/1.png)
 
 Type `diskpart` command, the prompt will change to `DISKPART>`
-![diskpart](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/2.png)
+![diskpart](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/2.png)
 
 Next type `list disk` to display disks available in our computers now.
-![list disk](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/3.png)
+![list disk](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/3.png)
 
 Clear USB first, also backup the existing data in the USB if available. Then format the USB. Type the following command below:
 
@@ -28,7 +28,7 @@ Clear USB first, also backup the existing data in the USB if available. Then for
 select disk 2
 {% endhighlight %}
 
-![select disk 2](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/4.png)
+![select disk 2](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/4.png)
 
 Number 2 is for USB disk placed.
 
@@ -36,43 +36,43 @@ Number 2 is for USB disk placed.
 clean
 {% endhighlight %}
 
-![clean](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/5.png)
+![clean](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/5.png)
 
 {% highlight bash %}
 create partition primary
 {% endhighlight %}
 
-![create partition primary](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/6.png)
+![create partition primary](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/6.png)
 
 {% highlight bash %}
 select partition 1
 {% endhighlight %}
 
-![select partition 1](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/7.png)
+![select partition 1](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/7.png)
 
 {% highlight bash %}
 active
 {% endhighlight %}
 
-![active](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/8.png)
+![active](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/8.png)
 
 {% highlight bash %}
 format fs=NTFS quick
 {% endhighlight %}
 
-![format fs=NTFS quick](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/9.png)
+![format fs=NTFS quick](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/9.png)
 
 {% highlight bash %}
 assign
 {% endhighlight %}
 
-![assign](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/10.png)
+![assign](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/10.png)
 
 {% highlight bash %}
 exit
 {% endhighlight %}
 
-![exit](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/11.png)
+![exit](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/11.png)
 
 ### Make USB Flash Drive Bootable
 
@@ -82,7 +82,7 @@ h:
 cd boot
 {% endhighlight %}
 
-![cd boot](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/12.png)
+![cd boot](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/12.png)
 
 where h: is my Windows 7 DVD drive letter
 
@@ -91,7 +91,7 @@ Use bootsect to make us into a bootable USB. The trick is to type the command:
 bootsect /nt60 n:
 {% endhighlight %}
 
-![open cmd](http://sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/13.png)
+![open cmd](//sapikuda.com/images/posts/2013-01-19-create-a-bootable-usb-windows-installer/13.png)
 
 where n: is my USB drive letter
 

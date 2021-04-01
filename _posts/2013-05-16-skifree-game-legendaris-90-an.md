@@ -10,6 +10,6 @@ Waktu saya masih kelas 2 SD, pertama kali saya mencoba apa itu komputer, sistem 
 
 Namun ada hal yang sangat menegangkan yaitu ketika ada monster yang mengejar Anda. ![Abominable Snow Monster](http://ski.ihoc.net/abom_h.gif)
 
-![Game SkiFree](http://sapikuda.com/images/posts/2013-05-16-skifree-game-legendaris-90-an/skyfree.png)
+![Game SkiFree](//sapikuda.com/images/posts/2013-05-16-skifree-game-legendaris-90-an/skyfree.png)
 
 Untuk yang kangen sama game ini, silakan download di [sini](http://ski.ihoc.net/).

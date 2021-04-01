@@ -16,18 +16,18 @@ Satu hal yang saya dapat hari ini:
 	<footer><cite title="Julius Fenata">Julius Fenata</cite></footer>
 </blockquote>
 
-![Calon MSP bertanya](http://sapikuda.com/images/posts/2012-04-01-microsoft-academic-developer-evangelist-indonesia-datang-ke-pens/img_0314.jpg)
+![Calon MSP bertanya](//sapikuda.com/images/posts/2012-04-01-microsoft-academic-developer-evangelist-indonesia-datang-ke-pens/img_0314.jpg)
 
 Calon MSP Bertanya
 
-![Mbak Rara MC-nya](http://sapikuda.com/images/posts/2012-04-01-microsoft-academic-developer-evangelist-indonesia-datang-ke-pens/img_0316.jpg)
+![Mbak Rara MC-nya](//sapikuda.com/images/posts/2012-04-01-microsoft-academic-developer-evangelist-indonesia-datang-ke-pens/img_0316.jpg)
 
 Mbak Rara MC-nya
 
-![Pak Julius in action](http://sapikuda.com/images/posts/2012-04-01-microsoft-academic-developer-evangelist-indonesia-datang-ke-pens/img_0364.jpg)
+![Pak Julius in action](//sapikuda.com/images/posts/2012-04-01-microsoft-academic-developer-evangelist-indonesia-datang-ke-pens/img_0364.jpg)
 
 Pak Julius in action
 
-![Kenang-kenang dari PENS](http://sapikuda.com/images/posts/2012-04-01-microsoft-academic-developer-evangelist-indonesia-datang-ke-pens/img_0387.jpg)
+![Kenang-kenang dari PENS](//sapikuda.com/images/posts/2012-04-01-microsoft-academic-developer-evangelist-indonesia-datang-ke-pens/img_0387.jpg)
 
 Kenang-kenang dari PENS

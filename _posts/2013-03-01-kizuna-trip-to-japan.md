@@ -38,13 +38,13 @@ Sesi foto kelompok D sebelum berangkat di Kedutaan Besar Jepang untuk Indonesia
 
 Ungkapan itulah yang kami rasakan ketika kami melihat keluar jendela pada pagi hari diatas pesawat yang membawa kami ke Jepang.
 
-![Pulau Honshu dari atas pesawat](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/3.jpg)
+![Pulau Honshu dari atas pesawat](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/3.jpg)
 
 Pulau Honshu dari atas pesawat
 
 Dan akhirnya kami tiba di Narita International Airport.Sesudah itu, kami langsung berangkat ke Harumi Grand Hotel, Tokyo, untuk mengikuti orientasi pada 14:00 waktu setempat. Jam 5 sore akhirnya mengakhiri orientasi pengenalan budaya dan jadwal padat yang akan kami lakukan. Pukul enam kami berjalan ke restaurant untuk makan.
 
-![Mencoba Sushi](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/4.jpg)
+![Mencoba Sushi](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/4.jpg)
 
 Mencoba Sushi
 
@@ -57,7 +57,7 @@ Gempa 11 Maret 2011 merupakan bencana yang lebih dahsyat dari gempa Kobe 1995, d
 
 Di setiap sekolah di Jepang, kini sudah dilakukan pelatihan-pelatihan untuk evakuasi bencana. Bahkan, disediakan pula ruangan khusus sebagai tempat penyimpanan logistik seperti air, makanan instan, dan selimut. Selain itu, struktur bangunan di Jepang harus tahan gempa, sampai-sampai ada Undang-Undang tentang bangunan tahan gempa.
 
-![Prof. Yoshichika Kubo](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/5.jpg)
+![Prof. Yoshichika Kubo](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/5.jpg)
 
 Prof. Yoshichika Kubo
 
@@ -70,7 +70,7 @@ Usai kuliah pukul 09:30 waktu setempat, delegasi dipersilakan mengobservasi kawa
 
 Dari kunjungan ini, kami mengetaui satu hal, ketangguhan Jepang menghadapi bencana tidak hanya dari teknologi, tradisi juga memberikan mereka semangat untuk mengadapi bencana
 
-![Pintu masuk kuil Kashima Jingu](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/6.jpg)
+![Pintu masuk kuil Kashima Jingu](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/6.jpg)
 
 Pintu masuk kuil Kashima Jingu
 
@@ -81,7 +81,7 @@ Menikmati kondisi sungai Onogawa dan kota tua Katori pasca bencana menjadi menu 
 
 Sejak 1996, sungai Onogawa dan kota tua Katori di Sawara diakui pemerintah Jepang sebagai area cagar budaya. Bencana 2011 lalu mengakibatkan 6000 rumah mengalami kerusakan. Bukan sekadar kerusakan fisik, perekonomian dan pamor kota Sawara pun menurun drastis dengan adanya isu radiasi nuklir. Kini, proses rekonstruksi terus berlanjut. Rumah-rumah cagar budaya berbahan baku kayu dan lumpur sidegura kembali dibangun.
 
-![Kelompok D di Sawara](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/7.jpg)
+![Kelompok D di Sawara](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/7.jpg)
 
 Kelompok D di Sawara
 
@@ -94,7 +94,7 @@ Secara beragam produk rumah tangga Kao mudah sekali ditemui di Indonesia. Staff 
 
 Chikako memaparkan bahwa pabrik Kao turut serta dilanda tsunami Maret 2011 lalu. Untungnya, konstruksi bangunan pabrik dibuat sedemikian rupa, sehingga tsunami setinggi 6,5 m dampaknya hanya merendam pabrik setinggi 0,5 m. Proses rekonstruksinya pun berjalan cepat, pertengahan Mei seluruh operasionalnya sudah berjalan normal.
 
-![Kelompok D di Kao](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/8.jpg)
+![Kelompok D di Kao](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/8.jpg)
 
 Kelompok D di Kao
 
@@ -103,7 +103,7 @@ Kelompok D di Kao
 
 SMA Itako adalah salah satu SMA yang terkena gempa 11 Maret. 480 Siswa dan Guru serta karyawan disini merpakan korban gempa. Masih berbekas beberapa memori buruk tentang gempa Sindo 7 itu. Kami disini sempat untuk mencoba beberapa tradisi Jepang. Saya mencoba panahan, atau yang disebut Kyūdō.
 
-![Setelah mencoba Kyūdō](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/9.jpg)
+![Setelah mencoba Kyūdō](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/9.jpg)
 
 Setelah mencoba Kyūdō
 
@@ -112,7 +112,7 @@ Setelah mencoba Kyūdō
 
 Kali ini kami berkesempatan mencoba the hijau beserta upcaranya. Cukup susah untuk mengikuti upacara yang seharusnya sakral ini, pada upacara sebenarnya kita harus duduk sesuai aturan Jepang dan meminumnya dengan tradisi yang ada. Teh hijau memiliki efek untuk menenangkan, untuk itu semapat juga disajikan saat setelah gempa 11 Maret dulu sebagai salah satu media untuk menenangkan korban.
 
-![Saat upacara minum Teh Hijau](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/10.jpg)
+![Saat upacara minum Teh Hijau](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/10.jpg)
 
 Saat upacara minum Teh Hijau
 
@@ -122,7 +122,7 @@ Saat upacara minum Teh Hijau
 
 Honjo Bosaikan adalah Honjo Life Safety Learning Center. Honjo Bosaikan menyediakan fasilitas belajar mulai dari games kebencanaan edukatif, kids arena, serta beragam simulasi kebencanaan. Kali ini delegasi Indonesia diajak untuk melakukan simulasi gempa Sindo 7 (sindo adalah skala gempa di Jepang, layaknya skala Richter), simulasi penggunaan APAR pertolongan pertama, dan simulasi ketika banjir datang.
 
-![Simulasi gempa](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/11.jpg)
+![Simulasi gempa](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/11.jpg)
 
 Simulasi gempa
 
@@ -132,13 +132,13 @@ Simulasi gempa
 Hari terakhir kami berada di Panasonic Center, Risupia, semacam wahana sains. Cukup menyenang kan berada disini. Disini kami mempelajari banyak hal, banyak tekologi baru yang mungkin harus segera diterapkan di Indonesia, seperti eco green house, dan hybrid car dan sebagainya
 
 
-![Kelompok D di Panasonic Center](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/12.jpg)
+![Kelompok D di Panasonic Center](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/12.jpg)
 
 Kelompok D di Panasonic Center
 
 dan satu lagi hasil dari Panasonic Center
 
-![Augmented Reality based photo](http://sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/VTMJLT_yUBUqhup64.jpg)
+![Augmented Reality based photo](//sapikuda.com/images/posts/2013-03-01-kizuna-trip-to-japan/VTMJLT_yUBUqhup64.jpg)
 
 Augmented Reality based photo sebelum diberi efek
 

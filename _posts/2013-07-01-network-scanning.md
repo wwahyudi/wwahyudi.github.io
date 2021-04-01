@@ -12,7 +12,7 @@ categories: network
 
 Cek jumlah host yang beroperasi
 
-![nmap –sL](http://sapikuda.com/images/posts/2013-07-01-network-scanning/1.png)
+![nmap –sL](//sapikuda.com/images/posts/2013-07-01-network-scanning/1.png)
 
 Perintah nmap –sL ke 10.252.108.1. –sL digunakan untuk menampilkan semua alamat dalam cakupan target yang ditentukan, dan tidak mengecek apakah host up atau sedang down namun perintah ini me-lookup reverse DNS. Jumlah host yang beroperasi sebanyak 28 host.
 
@@ -20,7 +20,7 @@ Perintah nmap –sL ke 10.252.108.1. –sL digunakan untuk menampilkan semua ala
 
 Menampilkan host dalam range IP tertentu dalam merespon ping
 
-![nmap –sP](http://sapikuda.com/images/posts/2013-07-01-network-scanning/2.png)
+![nmap –sP](//sapikuda.com/images/posts/2013-07-01-network-scanning/2.png)
 
 Perintah nmap –sP ke 10.252.108.1. –sP digunakan untuk menampilkan host dalam range IP tertentu dalam merespon ping. –sP mendeteksi computer yang online bukan port yang terbuka
 
@@ -30,7 +30,7 @@ Host yang beroperasi 0 host, dimungkinkan ada kesalahan saat praktek dikarenakan
 
 –v memberikan keterangan keadaan host itu sekarang berdasarkan ping yang dikirimkan
 
-![nmap –sP –v](http://sapikuda.com/images/posts/2013-07-01-network-scanning/3.png)
+![nmap –sP –v](//sapikuda.com/images/posts/2013-07-01-network-scanning/3.png)
 
 Perintah nmap –sP –v ke 10.252.108.1. –sP –v memberikan keterangan keadaan host itu sekarang berdasarkan ping yang dikirimkan
 
@@ -42,11 +42,11 @@ Perbedaaannya adalah pada –sP memberikan hasil bahwa ip tersebut tidak discan 
 
 ##### pemindaian ke alamat host: scanmap.eepis-its.edu dengan memakai teknik pemindaian -F dan -sV
 
-![Hasil perintah nmap –F ke scanmap.eepis-its.edu](http://sapikuda.com/images/posts/2013-07-01-network-scanning/4.png)
+![Hasil perintah nmap –F ke scanmap.eepis-its.edu](//sapikuda.com/images/posts/2013-07-01-network-scanning/4.png)
 
 Hasil perintah nmap –F ke scanmap.eepis-its.edu
 
-![Hasil perintah nmap –sV ke scanmap.eepis-its.edu](http://sapikuda.com/images/posts/2013-07-01-network-scanning/5.png)
+![Hasil perintah nmap –sV ke scanmap.eepis-its.edu](//sapikuda.com/images/posts/2013-07-01-network-scanning/5.png)
 
 Hasil perintah nmap –sV ke scanmap.eepis-its.edu
 
@@ -60,11 +60,11 @@ Opsi –sV digunakan untuk Version Detection yang artinya opsi –sV mengumpulka
 
 Scripts nmaps disimpan di `/usr/share/nmap/scripts`. 
 
-![Direktori tersimpannya scrip nmap dalam system](http://sapikuda.com/images/posts/2013-07-01-network-scanning/6.png)
+![Direktori tersimpannya scrip nmap dalam system](//sapikuda.com/images/posts/2013-07-01-network-scanning/6.png)
 
 Penggunaan dari scripts (-sC)
 
-![Penggunaan dari scripts (-sC)](http://sapikuda.com/images/posts/2013-07-01-network-scanning/7.png)
+![Penggunaan dari scripts (-sC)](//sapikuda.com/images/posts/2013-07-01-network-scanning/7.png)
 
 Direktori tersimpannya nmap ada pada /usr/share/nmap/script.
 
@@ -86,7 +86,7 @@ Opsi -sC hanya menjalankan nmap scan menggunakan default script saja atau setara
 
 Hasil nmap –sC ke scanmap.eepis-its.edu
 
-![Hasil nmap –sC ke scanmap.eepis-its.edu](http://sapikuda.com/images/posts/2013-07-01-network-scanning/8.png)
+![Hasil nmap –sC ke scanmap.eepis-its.edu](//sapikuda.com/images/posts/2013-07-01-network-scanning/8.png)
 
 Memiliki karakteristik yang hampir sama dengan opsi –F atau –sV namun –sC menjalankan nmap dengan menscan semua port (opsi –F dan –sV tidak menscan semua port, hanya well-known port saja). Opsi –sC menscan menggunakan default script yang ada sehingga opsi ini akan menghasilkan hasil yang lebih detail (dan juga lebih lama) semua OS detail, hingga keterangan-keterangan service yang berjalan akan ditampilkan sesuai dengan script default yang dipasang. Pada port 80 pun dapat mendeteksi apakah ada interface HTML yang diset disana. Bahkan sshhotkey dari sebuah service SSH ditampilkan pula. Juga pada imap, capabilities dapat dilihat dari situ.
 
@@ -96,7 +96,7 @@ Nmap dengan menggunakan teknik TCP half open atau dengan menggunakan opsi –sS.
 
 Hasil nmap –sS ke scanmap.eepis-its.edu
 
-![Hasil nmap –sS ke scanmap.eepis-its.edu](http://sapikuda.com/images/posts/2013-07-01-network-scanning/9.png)
+![Hasil nmap –sS ke scanmap.eepis-its.edu](//sapikuda.com/images/posts/2013-07-01-network-scanning/9.png)
 
 Opsi –sS sering disebut juga dengan SYN scanning (juga dikenal dengan nama half-open, atau stealth scanning). Ketika sebuah koneksi TCP yang dibuat antara dua sistem, sebuah proses yang dikenal sebagai three way handshake terjadi. Ini melibatkan pertukaran tiga paket, dan menyinkronkan sistem satu sama lain (yang diperlukan untuk koreksi kesalahan dibangun ke TCP. Sistem memulai koneksi mengirimkan sebuah paket ke sistem yang ingin terhubung. Paket TCP memiliki bagian header yang berisi flag (penanda). Flags menyatakan jenis paket yang akan dikirim, sehingga akan mendapatkan respon yang sesuai. Flag yang dimaksud adalah Ini adalah SYN (Synchronise), ACK (Acknowledge), FIN (Finished) dan RST (Reset). Paket SYN termasuk nomor urutan TCP, yang memungkinkan sistem remote tahu apa urutan yang diharapkan dalam komunikasi berikutnya. ACK memberikan tanda bahwa paket atau set paket sudah diterima, FIN dikirim saat komunikasi selesai, meminta bahwa koneksi ditutup, dan RST akan dikirim saat sambungan direset (ditutup segera).
 
@@ -104,13 +104,13 @@ Untuk memulai koneksi TCP, sistem memulai mengirimkan paket SYN ke tujuan, yang 
 
 Hasil Listen paket antara host anda dan host target dengan menggunakan wireshark
 
-![Hasil Listen paket antara host anda dan host target dengan menggunakan wireshark](http://sapikuda.com/images/posts/2013-07-01-network-scanning/10.png)
+![Hasil Listen paket antara host anda dan host target dengan menggunakan wireshark](//sapikuda.com/images/posts/2013-07-01-network-scanning/10.png)
 
 Half Open Connection adalah koneksi TCP yang tidak dibuka secara penuh (SYN-ACK-FIN), namun koneksi TCP berupa (SYN-ACK-RST). Contohnya, Anda mengirim paket SYN, seolah-olah Anda akan membuka koneksi sesungguhnya dan kemudian menunggu tanggapan. SYN / ACK menandakan port sedang listening (open), kemudian koneksi akan berstatus RST (reset) dimana tidak akan men-down-kan koneksi sebelum terbentuk koneksi.
 
 Penggambaran diagram TCP menggunakan Wireshark
 
-![Penggambaran diagram TCP menggunakan Wireshark](http://sapikuda.com/images/posts/2013-07-01-network-scanning/11.png)
+![Penggambaran diagram TCP menggunakan Wireshark](//sapikuda.com/images/posts/2013-07-01-network-scanning/11.png)
 
 ### Kesimpulan
 

@@ -20,7 +20,7 @@ $ sudo apt-get install openssl
 {% endhighlight %}
 
 ![Instalasi apache2 dan ssl
-](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/1.png)
+](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/1.png)
 
 **2.** Langkah berikutnya adalah membuat sertifikat SSL untuk web server sebelum kita menjalankan secure server dengan HTTPS. Selain itu , kita juga akan membuat pasangan public/private key untuk melakukan request sertifikat. Anda akan membutuhkan domain name untuk sertifikat yang anda ciptakan. Pada contoh ini digunakan nama: `www.asem.com`.
 
@@ -31,7 +31,7 @@ $ cd /etc/apache2/ssl.
 $ ls -al
 {% endhighlight %}
 
-![Membuat direktori ssl dan masuk ke direktori tersebut](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/2.png)
+![Membuat direktori ssl dan masuk ke direktori tersebut](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/2.png)
 
 **4.** Untuk membuat Certificate Signing Request (CSR), anda harus membuat sepasang public/privat key terlebih dahulu. 
 
@@ -46,7 +46,7 @@ $ sudo openssl genrsa -des3 -out server.key 1024
 - `out`: menunjukkan filename yang akan menyimpan hasil output
 - `1024`: menunjukkan jumlah bit dari key yang dibuat
 
-![pembuatan key untuk ssl](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/3.png)
+![pembuatan key untuk ssl](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/3.png)
 
 **6.** Siapkan passphrase dan isikan pada saat diminta. Hasilnya akan muncul seperti ini:
 
@@ -64,7 +64,7 @@ Setelah menjalankan langkah ini, akan tercipta server.key pada direktori ssl.
 
 Passphrase yang diset adalah: `asem`
 
-![isi file server.key](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/4.png)
+![isi file server.key](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/4.png)
 
 Isi file server.key
 
@@ -76,11 +76,11 @@ $ sudo openssl req -new -key server.key -out server.csr
 
 Akan muncul tampilan berikut. Yang penting ketika memasukkan Common Name (CN) adalah CN harus sesuai dengan alamat web, nama DNS atau IP address pada konfigurasi Apache. Setelah anda memasukkan informasi tersebut, akan terbentuk file server.csr yang akan digunakan untuk meminta sertifikat. 
 
-![membentuk csr key dari openssl key](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/5.png)
+![membentuk csr key dari openssl key](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/5.png)
 
 Membentuk csr key dari openssl key
 
-![Isi file server.csr](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/6.png)
+![Isi file server.csr](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/6.png)
 
 Isi file server.csr
 
@@ -94,15 +94,15 @@ $ sudo openssl x509 -req -days 365 -in server.csr -signkey server.key -out serve
 
 Perintah diatas akan meminta anda memasukkan kembali passphrase untuk mengenerate server.key (yaitu 123456). Masukkan passphrase yang sesuai.
 
-![membentuk crt key dari csr key](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/7.png)
+![membentuk crt key dari csr key](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/7.png)
 
 Membentuk crt key dari csr key
 
-![isi file server.csr](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/8.png)
+![isi file server.csr](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/8.png)
 
 **10.** Cek lagi directory ssl dan anda seharusnya memiliki 3 file, server.key,server.crt dan server.crs.
 
-![Isi direktori ssl](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/9.png)
+![Isi direktori ssl](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/9.png)
 
 Isi direktori ssl
 
@@ -110,7 +110,7 @@ Isi direktori ssl
 
 **1.** Cek direktori ssl untuk memastikan ada 3 file disini yaitu : server.key,server.crt dan server.crs. Hal ini penting untuk kelancaran konfigurasi kali ini.
 
-![Isi direktori ssl](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/9.png)
+![Isi direktori ssl](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/9.png)
 
 **2.** Enable-kan modul mod_ssl dengan perintah:
 
@@ -118,7 +118,7 @@ Isi direktori ssl
 $ sudo a2enmod ssl
 {% endhighlight %}
 
-![mengakftifkan modul ssl](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/10.png)
+![mengakftifkan modul ssl](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/10.png)
 
 **3.** Restart apache. Tujuannya agar module ssl berjalan pada apache. Proses ini harusnya berjalan tanpa error.
 
@@ -126,7 +126,7 @@ $ sudo a2enmod ssl
 $ sudo /etc/init.d/apache2 restart
 {% endhighlight %}
 
-![Merestart service apache2](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/11.png)
+![Merestart service apache2](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/11.png)
 
 **4.** Copy file default ke file ke file www.asem.com
 
@@ -135,7 +135,7 @@ $ cd /etc/apache2/sites-available/
 $ cp default www.asem.com
 {% endhighlight %}
 
-![Mengcopy default untuk www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/12.png)
+![Mengcopy default untuk www.asem.com](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/12.png)
 
 **5.** Edit file www.asem.com dengan gedit atau pico
 
@@ -167,7 +167,7 @@ Ubah <Directory /var/www/> untuk menunjuk ke direktori asem
 <Directory /var/www/asem>
 {% endhighlight %}
 
-![Mengubah port, server name, dan directory root www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/13.png)
+![Mengubah port, server name, dan directory root www.asem.com](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/13.png)
 
 Mengubah port, server name, dan directory root www.asem.com
 
@@ -179,7 +179,7 @@ SSLCertificateFile /etc/apache2/ssl/server.crt
 SSLCertificateKeyFile /etc/apache2/ssl/server.key
 {% endhighlight %}
 
-![Menambahkan SSL pada default dari www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/14.png)
+![Menambahkan SSL pada default dari www.asem.com](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/14.png)
 
 Menambahkan SSL pada default dari www.asem.com
 
@@ -191,7 +191,7 @@ Menambahkan SSL pada default dari www.asem.com
 $ sudo cp /var/www/index.html /var/www/asem/index.html
 {% endhighlight %}
 
-![Mengcopy html index untuk index file www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/15.png)
+![Mengcopy html index untuk index file www.asem.com](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/15.png)
 
 **8.** Enable-kan website www.asem.com dengan:
 
@@ -199,7 +199,7 @@ $ sudo cp /var/www/index.html /var/www/asem/index.html
 $ sudo a2ensite www.asem.com
 {% endhighlight %}
 
-![Mengaktifkan website www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/16.png)
+![Mengaktifkan website www.asem.com](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/16.png)
 
 **9.** Edit file /etc/hosts untuk melakukan resolusi domain www.asem.com website ke 127.0.0.1. Cari baris 127.0.0.1 lalu tambahkan baris ini:
 
@@ -207,7 +207,7 @@ $ sudo a2ensite www.asem.com
 127.0.0.1 localhost asem www.asem.com
 {% endhighlight %}
 
-![Menambahkan konfigurasi resolv domain](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/17.png)
+![Menambahkan konfigurasi resolv domain](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/17.png)
 
 ### Menjalankan https
 
@@ -219,7 +219,7 @@ $ sudo /etc/init.d/apache2 restart
 
 Masukkan passphrase yaitu 123456. Jika cocok maka apache2 akan di-restart dan memberikan tanda [OK].
 
-![merestart service apache2](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/18.png)
+![merestart service apache2](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/18.png)
 
 **2.** Buka http://localhost pada browser. Jika apache2 berjalan dengan baik, maka akan muncul pesan “It Works!”
 
@@ -227,11 +227,11 @@ Masukkan passphrase yaitu 123456. Jika cocok maka apache2 akan di-restart dan me
 
 **4.** Klik tombol : `I Understand the Risks`, kemudian klik tombol: `Add Exception` dan terakhir klik `Get Certificate`. Klik `View`. Anda akan melihat sertifikat *self-signed* yang tadi anda buat. Setelah itu klik checkbox `Permanently store this exception` dan klik tombol `Confirm Security Exception`.
 
-![Konfigurasi eksepsi https certificate](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/19.png)
+![Konfigurasi eksepsi https certificate](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/19.png)
 
 **5.** Akhirnya muncul halaman web yang kita buat. Perhatikan bahwa awal dari URL adalah https, bukan http
 
-![Hasil buka https://www.asem.com](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/20.png)
+![Hasil buka https://www.asem.com](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/20.png)
 
 **6.** Pada pojok kiri bawah tampak tanda gembok yang menunjukkan bahwa web server tersebut menggunakan sertifikat.
 
@@ -241,7 +241,7 @@ Masukkan passphrase yaitu 123456. Jika cocok maka apache2 akan di-restart dan me
 
 **8.** Pada tab `Detail`, kita dapat mengtahui siapa issuer sertifikat ini.
 
-![Detail properties certificate issuer](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/22.png)
+![Detail properties certificate issuer](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/22.png)
 
 ### Pembahasan
 
@@ -249,7 +249,7 @@ Teknologi SSL menggunakan konsep teknologi kriptografi kunci publik untuk bisa m
 
 Cara kerja ssl adalah sebagai berikut:
 
-![Bagan SSL handshake](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/23.gif)
+![Bagan SSL handshake](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/23.gif)
 
 Bagan SSL handshake, dijelaskan sebagai berikut:
 
@@ -265,10 +265,10 @@ Bagan SSL handshake, dijelaskan sebagai berikut:
 
 Pada implementasi nyata, berikut hasil capture handshake menggunakan wireshark:
 
-![Hasil protocol analysis dari ssl sebelum browser mendapat persetujuan user untuk meng- Confirm Security Exception](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/24.png)
+![Hasil protocol analysis dari ssl sebelum browser mendapat persetujuan user untuk meng- Confirm Security Exception](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/24.png)
 
 Hasil protocol analysis dari ssl sebelum browser mendapat persetujuan user untuk meng- Confirm Security Exception
 
-![SSL di wireshark](http://sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/25.png)
+![SSL di wireshark](//sapikuda.com/images/posts/2013-05-31-menciptakan-sertifikat-ssl-dengan-openssl/25.png)
 
 Hasil protocol analysis dari ssl sebelum browser mendapat persetujuan user untuk meng-`Confirm Security Exception`. SSL berjalan seperti pada Bagan SSL handshake

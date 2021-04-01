@@ -72,15 +72,15 @@ public static String kuda(String key, String msg) throws Throwable {
 
 Berikut hasil eksekusinya:
 
-![Hasil running Chat Server](http://sapikuda.com/images/posts/2013-07-01-kriptografi/1.png)
+![Hasil running Chat Server](//sapikuda.com/images/posts/2013-07-01-kriptografi/1.png)
 
 Hasil running Chat Server
 
-![Hasil running Chat Client 1](http://sapikuda.com/images/posts/2013-07-01-kriptografi/2.png)
+![Hasil running Chat Client 1](//sapikuda.com/images/posts/2013-07-01-kriptografi/2.png)
 
 Hasil running Chat Client 1
 
-![Hasil running Chat Client 2](http://sapikuda.com/images/posts/2013-07-01-kriptografi/3.png)
+![Hasil running Chat Client 2](//sapikuda.com/images/posts/2013-07-01-kriptografi/3.png)
 
 Hasil running Chat Client 2
 
@@ -94,7 +94,7 @@ Dalam hal ini, percobaan dibuat menggunakan DES (Data Encryption Standard) ciphe
 
 Pada percobaan diatas digunakan skema enkripsi asimetrik, dimana tiap pengguna (klien) memiliki key sendiri. Tiap klient diminta untuk memiliki key tersendiri.
 
-![Gambaran skema enkripsi asimetrik](http://sapikuda.com/images/posts/2013-07-01-kriptografi/4.gif)
+![Gambaran skema enkripsi asimetrik](//sapikuda.com/images/posts/2013-07-01-kriptografi/4.gif)
 
 Gambaran skema enkripsi asimetrik
 
@@ -102,11 +102,11 @@ Penggunaan enkripsi dapat dilihat pada hasil running diatas, pada server terliha
 
 Berikut hasil perbandingan Follow Stream dari paket yang dikirim dengan klien dengan enkripsi dan klien tanpa enkripsi:
 
-![Hasil Follow Stream paket yang dikirim dengan klien yang mengenkripsi teksnya](http://sapikuda.com/images/posts/2013-07-01-kriptografi/5.png)
+![Hasil Follow Stream paket yang dikirim dengan klien yang mengenkripsi teksnya](//sapikuda.com/images/posts/2013-07-01-kriptografi/5.png)
 
 Hasil Follow Stream paket yang dikirim dengan klien yang mengenkripsi teksnya
 
-![Hasil Follow Stream paket yang dikirim dengan klien yang tidak mengenkripsi teksnya](http://sapikuda.com/images/posts/2013-07-01-kriptografi/6.png)
+![Hasil Follow Stream paket yang dikirim dengan klien yang tidak mengenkripsi teksnya](//sapikuda.com/images/posts/2013-07-01-kriptografi/6.png)
 
 Hasil Follow Stream paket yang dikirim dengan klien yang tidak mengenkripsi teksnya
 

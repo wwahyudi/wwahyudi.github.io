@@ -30,35 +30,35 @@ Dianggap sudah menginstal proxy server squid dan menginstal webserver apache2. P
 
 Instalasi Freeradius. Paket yang diinstal adalah `freeradius-mysql` dan `freeradius-util`.
 
-![Instalasi free radius](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/1.png)
+![Instalasi free radius](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/1.png)
 
 Kemudian install database mysql. Paket yang diinstal adalah `mysql-server mysql-client`
 
-![Konfigurasi mysql server, set root password](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/2.png)
+![Konfigurasi mysql server, set root password](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/2.png)
 
 Setelah mysql terinstal, buat database Radius dan buat user radius serta memberikan privilege ke user radius. Untuk skema database radius, import skema dari `/etc/freeradius/sql/mysql/schema.sql`.
 
-![Membangun database radius](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/3.png)
+![Membangun database radius](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/3.png)
 
 Seting konfigurasi koneksi radius dengan database. Buka file `/etc/freeradius/sql.conf` dan masukkan konfigurasi database mysql.
 
-![Hasil konfigurasi koneksi database](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/4.png)
+![Hasil konfigurasi koneksi database](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/4.png)
 
 Kemudian include-kan hasil konfigurasi database ke konfigurasi services Radius. Buka file `/etc/freeradius/radiusd.conf`, hilangkan tanda `#` pada baris `$INCLUDE sql.conf`.
 
-![meng- include-kan hasil konfigurasi database ke konfigurasi services Radius](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/5.png)
+![meng- include-kan hasil konfigurasi database ke konfigurasi services Radius](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/5.png)
 
 Untuk memberikan akses penyimpanan data pada mysql untuk meng-authorize, meng- accounting dan mengijikan session pada default enabled site, edit `/etc/freeradius/sites-available/default` dan hilangkan tanda comment pada baris yang mengandung `sql` di bagian `authorize{}` dan`sql` di bagian  `accounting{}`, dan `sql` di bagian `session{}`.
 
-![Menghilangkan hilangkan tanda comment pada baris yang mengandung ‘sql’ di bagian authorize{}](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/6.png)
+![Menghilangkan hilangkan tanda comment pada baris yang mengandung ‘sql’ di bagian authorize{}](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/6.png)
 
 Kemudian untuk mengijinkan virtual server inner-tunnel (virtual server yang hanya mengijinkan request untuk melakukan tunneling dalam server radius sendiri) untuk me-request bertipe `EAP-TTLS` dan `PEAP`, edit `/etc/freeradius/sites-available/inner-tunnel`, dan hilangkan tanda comment yang mengandung `sql` di dalam bagian `authorize {}` dan di bagian `session {}`.
 
-!Menghilangkan hilangkan tanda comment pada baris yang mengandung ‘sql’ di bagian authorize{} pada inner-tunnel](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/7.png)
+!Menghilangkan hilangkan tanda comment pada baris yang mengandung ‘sql’ di bagian authorize{} pada inner-tunnel](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/7.png)
 
 Untuk meng-apply hasil konfigurasi dan mengecek apakah radius berjalan dengan baik restart service Freeradius dan kemudian stop dan start kembali service tersebut.
 
-![Meng-apply hasil konfigurasi dan mengecek apakah radius berjalan dengan baik](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/8.png?psid=1Meng-apply%20hasil%20konfigurasi%20dan%20mengecek%20apakah%20radius%20berjalan%20dengan%20baik)
+![Meng-apply hasil konfigurasi dan mengecek apakah radius berjalan dengan baik](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/8.png?psid=1Meng-apply%20hasil%20konfigurasi%20dan%20mengecek%20apakah%20radius%20berjalan%20dengan%20baik)
 
 Kemudian konfigurasi `squid.conf` pada file `/etc/squid/squid.conf` dan tambahkan konfigurasi dibawah ini:
 
@@ -76,17 +76,17 @@ acl radius-auth proxy_auth REQUIRED
 http_access allow radius-auth
 {% endhighlight %}
 
-![Hasil konfigurasi squid.conf](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/9.png)
+![Hasil konfigurasi squid.conf](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/9.png)
 
 Download plugin radius, kemudian ekstrak.
 
-![Download plugin radius, kemudian ekstrak](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/10.png)
+![Download plugin radius, kemudian ekstrak](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/10.png)
 
 Pindah ke hasil direktori hasil ekstraksi `squid_radius_auth-1.10`, kemudian install plugin:
 
-![Hasil pindah direktori](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/11.png)
+![Hasil pindah direktori](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/11.png)
 
-![Hasil install plugin](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/12.png)
+![Hasil install plugin](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/12.png)
 
 Kemudian Copy file binari plugin radius auth ke `/usr/local/squid/libexec/squid_radius_auth`. Kemudian buat file konfigurasi plugin radius 
 
@@ -94,36 +94,36 @@ Kemudian Copy file binari plugin radius auth ke `/usr/local/squid/libexec/squid_
 # touch /etc/squid/squid_rad_auth.conf.
 {% endhighlight %}
 
-![Meng-kopi binary plugin radius ke /usr/local/squid/libexec/squid_radius_auth. Hasil membuat file konfigurasi plugin radius](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/13.png)
+![Meng-kopi binary plugin radius ke /usr/local/squid/libexec/squid_radius_auth. Hasil membuat file konfigurasi plugin radius](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/13.png)
 
 Masukkan konfigurasi berikut ke file squid_rad_auth.conf
 
-![Hasil memasukan konfigurasi berikut ke file squid_rad_auth.conf](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/14.png)
+![Hasil memasukan konfigurasi berikut ke file squid_rad_auth.conf](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/14.png)
 
 Kemudian restart service squid untuk meng-apply hasil konfigurasi.
 
-![Restart service squid](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/15.png)
+![Restart service squid](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/15.png)
 
 Setup browser client dengan proxy alamat IP proxy server dan port 3128. Ketika Anda mulai browsing dengan browser akan muncul form login sebagai berikut:
 
-![Hasil pengaturan proxy dan radius](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/16.png)
+![Hasil pengaturan proxy dan radius](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/16.png)
 
 Untuk mempermudah manajemen Freeradius, install daloradius sebagai user interface manajemen
 
 Ekstrak daloradius kemudian pindahkan ke `var/www/`. Kemudian masuk ke direktori `../daloradius/contrib/db`. Kemudian tambahkan tabel-tabel daloradius untuk menambahkan beberapa tabel dalam database radius.
 
-![Menambahkan tabel-tabel daloradius dalam database radius](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/17.png)
+![Menambahkan tabel-tabel daloradius dalam database radius](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/17.png)
 
 Kemudian konfigurasi koneksi database ke daloradius ke `../daloradius/library/daloradius.conf.php`.
 
-![Hasil konfigurasi koneksi database daloradius](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/18.png)
+![Hasil konfigurasi koneksi database daloradius](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/18.png)
 
 Jika mengalami error dalam konfigurasi install paket `php5-gd`, `php-pear` dan `php-db`. Berikut hasil konfigurasi daloradius:
 
-![Hasil penambahan user](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/19.png)
+![Hasil penambahan user](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/19.png)
 
 Hasil penambahan user
 
 Dan hasilnya adalah:
 
-![hasilnya](http://sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/20.png)
+![hasilnya](//sapikuda.com/images/posts/2013-07-05-radius-proxy-pada-virtual-private-server/20.png)

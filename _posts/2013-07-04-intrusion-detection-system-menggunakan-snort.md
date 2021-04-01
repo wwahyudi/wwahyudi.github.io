@@ -25,7 +25,7 @@ Dalam pengoperasiannya, Snort memiliki 3 mode yaitu:
 
 Pada pembahasan kali ini digunakan MikroTik RouterBoard 1100.
 
-![MikroTik RouterBoard 1100](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/1.jpg)
+![MikroTik RouterBoard 1100](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/1.jpg)
 
 Pada pembahasan ini digunakan 3 NIC dengan detail penggunaan sebagai berikut:
 
@@ -35,7 +35,7 @@ Pada pembahasan ini digunakan 3 NIC dengan detail penggunaan sebagai berikut:
 
 Berikut penggambaran skema pada pembahasan:
 
-![penggambaran skema pada pembahasan](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/2.jpg)
+![penggambaran skema pada pembahasan](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/2.jpg)
 
 Setelah konfigurasi router dan clientsudah dibuat, lingkungan dapat digunakan untuk melakukan percobaan menggunakan Snort.
 
@@ -49,7 +49,7 @@ Lakukan instalasi snort pada Client1. Pada percobaan ini Client1 digunakan sebag
 
 Kemudian masukkan range network yang akan dianalisa. Berikut hasil input range network untuk instalasi snort:
 
-![input range network untuk instalasi snort](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/3.png)
+![input range network untuk instalasi snort](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/3.png)
 
 ### Menjalankan Snort dalam Sniffer mode
 
@@ -61,7 +61,7 @@ Seperti sudah dibahas diatas bahwa Snort memiliki 3 mode pengoperasian, pada pem
 
 Berikut hasil perintah #snort –v:
 
-![hasil perintah #snort –v](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/4.png)
+![hasil perintah #snort –v](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/4.png)
 
 Setelah startup, Snort menampilkan mode, logging directory dan interface Snort langsung me-listen pada port. Kemudian Snort mulai men-dump paket.  Snort akan meng-generate ringkasan paket yang diambil, termasuk protokol dan statistik lainnya, seperti fragmentasi paket. Opsi -d akan menampikan data aplikasi. Opsi ini menyediakan output bahkan lebih rinci. Data aplikasi terlihat jelas dan dapat melihat teks biasa dalam paket.
 
@@ -70,14 +70,14 @@ Setelah startup, Snort menampilkan mode, logging directory dan interface Snort l
 {% endhighlight %}
 
 Berikut hasil perintah #snort –vd:
-![hasil perintah #snort –vd](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/5.png)
+![hasil perintah #snort –vd](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/5.png)
 
 {% highlight bash %}
 #snort –vde
 {% endhighlight %}
 
 Berikut hasil perintah #snort –vde:
-![Berikut hasil perintah #snort –vde:](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/6.png)
+![Berikut hasil perintah #snort –vde:](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/6.png)
 
 Kebanyakan jaringan akan menghasilkan load off traffic dan output sniffer Snort ke layar akan bergulir dengan sangat cepat. Jadi lebih baik untuk mengarahkan output ke sebuah file log gantinya.
 
@@ -87,7 +87,7 @@ Kebanyakan jaringan akan menghasilkan load off traffic dan output sniffer Snort 
 
 Berikut hasil perintah #snort –v –d –e:
 
-![hasil perintah #snort –v –d –e](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/7.png)
+![hasil perintah #snort –v –d –e](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/7.png)
 
 dengan menambahkan beberapa switch –v, -d, -e akan menghasilkan beberapa keluaran yang berbeda, yaitu:
 
@@ -105,11 +105,11 @@ Karena output sniffer Snort ke layar akan bergulir dengan sangat cepat, untuk me
 
 Berikut hasil me-log-kan hasil snort pada snort.log
 
-![hasil me-log-kan hasil snort pada snort.log](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/8.png)
+![hasil me-log-kan hasil snort pada snort.log](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/8.png)
 
 Akan menghasilkan sebuah file di folder /var/log/snort. Berikut hasil perintah # ls dari folder /var/log/snort:
 
-![hasil perintah # ls dari folder /var/log/snort](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/9.png)
+![hasil perintah # ls dari folder /var/log/snort](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/9.png)
 
 Untuk membaca file snort (misal: snort.log.1234) berikan option –r pada snort
 
@@ -119,7 +119,7 @@ Untuk membaca file snort (misal: snort.log.1234) berikan option –r pada snort
 
 Berikut hasil read dari snort.log yang sudah digenerate
 
-![hasil read dari snort.log yang sudah digenerate](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/10.png)
+![hasil read dari snort.log yang sudah digenerate](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/10.png)
 
 Log yang di-generate oleh Snort adalah log yang dienkripsi sehingga harus dibaca dengan pertintah diatas.
 
@@ -135,7 +135,7 @@ Untuk menjalankan snort dengan mode NIDS, opsi e dihilangkan karena kita tidak p
 
 Berikut hasil eksekusi perintah dari snort running In IDS mode:
 
-![hasil eksekusi perintah dari snort running In IDS mode](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/11.png)
+![hasil eksekusi perintah dari snort running In IDS mode](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/11.png)
 
 Untuk mengetahui kerja Snort dalam NIDS mode, jalankan scanning dari komputer lain (PC Client) dengan nmap menuju komputer yang anda pasangi snort (PC Server). Terlebih dulu jalankan snort dengan mode NIDS, kemudian lakukan scanning dengan perintah:
 
@@ -145,7 +145,7 @@ Untuk mengetahui kerja Snort dalam NIDS mode, jalankan scanning dari komputer la
 
 Berikut merupakan hasil nmap dari client2 ke client 1:
 
-![hasil nmap dari client2 ke client 1](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/12.jpg)
+![hasil nmap dari client2 ke client 1](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/12.jpg)
 
 Setelah di scan menggunakan nmap. Untuk melihat apa yang dicatat oleh snort, dapat di hasil log snort, atau untuk mempermudahnya, dapat dilihat di alert log snort. Berikut hasil yang di tangkap oleh alert log snort pada port 53.
 
@@ -167,12 +167,12 @@ alert tcp any any -> any any (msg:"TCP Traffic";sid:1000002;rev:0;)
 
 Rule diatas bermaksud untuk memberikan alert ketika ada transaksi dat TCP dari Ip berapa saja dan port berapa saja kemudia ke IP berapa saja ke port berapa saja dengan konten 10.252.108.99 akan memberikan pesan seperti diatas.
 
-![membuat rule](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/13.png)
+![membuat rule](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/13.png)
 
 Kemudian tambahkan include $RULE_PATH/alltcp.rules pada /etc/snort/snort.conf. kemudian restart service snort.
 
-![restart service snort](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/14.png)
+![restart service snort](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/14.png)
 
 Hasilnya adalah
 
-![Hasil penerapan rule](http://sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/15.png)
+![Hasil penerapan rule](//sapikuda.com/images/posts/2013-07-04-intrusion-detection-system-menggunakan-snort/15.png)

@@ -17,10 +17,10 @@ I'm not really good at electronics stuff. And with that keyword, I googled and f
 Then next day. I went to Glodok. And unfortunately, that day was Sunday, mostly the electronics shops closed. But finally I managed to get a shop opened on LTC Glodok (The shop direction: from the main entrance, go up to the second floor, and the shop is on the left, 10 meters from the escalator). The Ferrite Clamp cost about 12000 IDR each. Then quickly I went home to try it. And it works! These Ferrite Clamp reduces that noise by 98%.
 And here an instruction how I installed the Ferrite Clamp:
 
-![How i installed the Ferrite Clamp](http://sapikuda.com/images/posts/2015-03-17-ferrite-suppression-core-and-radio-frequency-interference/Red-Lion-FCOR.jpg)
+![How i installed the Ferrite Clamp](//sapikuda.com/images/posts/2015-03-17-ferrite-suppression-core-and-radio-frequency-interference/Red-Lion-FCOR.jpg)
 
 Here the results:
-![Installation result](http://sapikuda.com/images/posts/2015-03-17-ferrite-suppression-core-and-radio-frequency-interference/IMAG2574.jpg)
+![Installation result](//sapikuda.com/images/posts/2015-03-17-ferrite-suppression-core-and-radio-frequency-interference/IMAG2574.jpg)
 
-![Installation result](http://sapikuda.com/images/posts/2015-03-17-ferrite-suppression-core-and-radio-frequency-interference/IMAG2576.jpg)
+![Installation result](//sapikuda.com/images/posts/2015-03-17-ferrite-suppression-core-and-radio-frequency-interference/IMAG2576.jpg)
 
