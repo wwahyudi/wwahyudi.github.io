@@ -8,7 +8,6 @@ $highlightCyan: #69FFF4; //  strings, numbers
 $highlightGreen: #3AE25C; //  operators, other keywords
 
 .highlight {
-    background-color: $highlightBgColor; 
     color: $highlightBodyColor;
     @include sassline(delta, $monospacetype, 1.3, 0, 0);
 

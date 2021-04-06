@@ -180,10 +180,13 @@ video {
     margin-right: 0.2rem;
   }
   pre {
-    white-space: pre-wrap;
-    overflow: hidden;
+    padding: 16px;
+    border-radius: 6px;
+    white-space: pre;
+    overflow: auto;
     word-wrap: break-word;
     text-align: justify;
+    font-size: 85%;
   }
 }
 
