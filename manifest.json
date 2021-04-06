@@ -1,0 +1,14 @@
+{
+    "name": "sapikuda",
+    "short_name": "sapikuda",
+    "icons": [
+        {
+            "src": "\/assets\/sapikuda-google-touch-icon.png",
+            "sizes": "512x512"
+        }
+    ],
+    "background_color": "#202124",
+    "theme_color": "#c9d1d9",
+    "display": "standalone",
+    "start_url": "/index.html"
+}

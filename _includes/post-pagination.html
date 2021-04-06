@@ -1,0 +1,21 @@
+<nav class="nav  nav--paginator">
+
+  {% if paginator.page != 1 %}
+    {% if paginator.previous_page %}
+      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination  pagination--previous">&larr; Previous</a>
+    {% else %}
+      <span class="pagination  pagination--previous">&larr; Previous</span>
+    {% endif %}
+  {% endif %}
+
+  <span class="pagination  pagination--counter">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+{% if paginator.page != paginator.total_pages %}
+  {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination  pagination--next">Next &rarr;</a>
+  {% else %}
+    <span class="pagination  pagination--next">Next &rarr;</span>
+  {% endif %}
+{% endif %}
+
+</nav>

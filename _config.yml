@@ -1,0 +1,78 @@
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+# 8. Google services
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- jekyll-theme.gemspec
+- .gitignore
+- .sass-cache/
+- .jekyll-cache/
+- _site/
+
+# 2. Installed Gems
+plugins:
+- jekyll-paginate
+
+# 3. Gem settings
+paginate: 4 # jekyll-paginate > items per page
+paginate_path: page:num # jekyll-paginate > blog page
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+  sourcemap: never
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: Asia/Jakarta # Timezone for blog posts and alike
+
+# 5. Collections
+collections:
+  posts:
+    title: Blog # Needed for Siteleaf
+    output: true
+    description: "Welcome!" # The post list page content
+
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page # Default layout
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post # Default layout
+
+# 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+title: "sapi@kuda:~$" # Site name or title
+logo: "/assets/sapikuda-logo.svg" # Site logo
+favicon: "/assets/sapikuda-favicon.svg" # Uncomment to add custom favicon, or leave as is to use site logo
+description: "sapi@kuda:~$ ./generate-random-post" # Site description and default description
+url: "https://sapikuda.com" # Site url
+baseurl: ""
+lang: en-US
+text:
+  og_locale: 'en_US'
+keep_files: [images]
+author: sapikuda
+
+# 8. Google services
+google_analytics: "UA-50753603-3"
+google_tag_manager: "G-BLH5MLW0HG" 

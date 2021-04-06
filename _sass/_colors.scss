@@ -1,0 +1,11 @@
+// Colors
+$bodyColor: #c9d1d9;
+$headingColor: lighten($bodyColor, 5%);
+$linkColor: #b1b6bd;
+$hoverColor: darken($linkColor, 10%);
+$captionColor: darken($headingColor, 20%);
+$white: #fff;
+
+$backgroundColor: #202124;
+$codeBackgroundColor: lighten($backgroundColor, 10%);
+$tableBorderColor: lighten($backgroundColor, 40%);
