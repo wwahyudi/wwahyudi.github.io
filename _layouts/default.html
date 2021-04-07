@@ -6,7 +6,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<meta name="description" content="{% if page.summary %} Blog post about: {{ page.summary | xml_escape }} | sapikuda.com{% else %}{{ site.description | xml_escape }}{% endif %}">
+		<meta name="description" content="{% if page.summary %}Blog post about: {{ page.summary | xml_escape }} | sapikuda.com{% else %}{{ site.description | xml_escape }}{% endif %}">
 		
 		<meta name="robots" content="all">
 		<meta name="author" content="{{ site.author }}">
@@ -16,13 +16,22 @@
 		{% endif %}
     
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    
+		
+		<!-- Open Graph / Facebook -->
 		<meta property="og:locale" content="{{ site.text.og_locale }}">
 		<meta property="og:type" content="article">
 		<meta property="og:title" content="{% if page.title %}{{ page.title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
 		<meta property="og:description" content="{{ site.description | xml_escape }}">
 		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 		<meta property="og:site_name" content="{{ site.title | xml_escape }}">
+		<meta property="og:image" content="/assets/sapikuda-meta-img.png">
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+		<meta property="twitter:title" content="{% if page.title %}{{ page.title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
+		<meta property="twitter:description" content="{{ site.description | xml_escape }}">
+		<meta property="twitter:image" content="/assets/sapikuda-meta-img.png">
 
 		{% if page.collectionpage %}
 			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
