@@ -20,6 +20,7 @@ exclude:
 - .sass-cache/
 - .jekyll-cache/
 - _site/
+- node_modules
 
 # 2. Installed Gems
 plugins:
@@ -75,3 +76,4 @@ author: sapikuda
 # 8. Google services
 google_analytics: "UA-50753603-3"
 google_tag_manager: "G-BLH5MLW0HG" 
+
