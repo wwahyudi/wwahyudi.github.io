@@ -11,7 +11,7 @@ layout: default
     <article class="article  article--page  typeset">
 
 			{% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-			<h1>{{ collectiondata.title }}</h1>
+			<h1 style="display: none;">{{ collectiondata.title }}</h1>
 
     </article>
 
