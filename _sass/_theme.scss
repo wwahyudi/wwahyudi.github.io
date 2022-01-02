@@ -138,6 +138,7 @@ figure.image {
 
 figcaption {
   @include sassline(10, $bodytype, 0, 0, 0);
+  line-height: 0.9rem;
 }
 
 audio,
@@ -182,7 +183,7 @@ video {
   pre {
     padding: 16px;
     border-radius: 6px;
-    white-space: pre;
+    white-space: break-spaces;
     overflow: auto;
     word-wrap: break-word;
     text-align: justify;
